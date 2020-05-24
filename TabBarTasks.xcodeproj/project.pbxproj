@@ -7,23 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D1773E6247A099D0058D060 /* AppDelegationMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1773E5247A099D0058D060 /* AppDelegationMethods.swift */; };
+		3D1773E8247A09BE0058D060 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1773E7247A09BE0058D060 /* WeatherDataModel.swift */; };
+		3D1773EB247A1A9E0058D060 /* PokemonCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1773EA247A1A9E0058D060 /* PokemonCollectionViewController.swift */; };
+		3D1773ED247A1AC30058D060 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1773EC247A1AC30058D060 /* LoginViewController.swift */; };
+		3D1773F0247A1E4A0058D060 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1773EF247A1E4A0058D060 /* RegisterViewController.swift */; };
+		3D1AFB26247A69D6003F8CDB /* PokemonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1AFB25247A69D6003F8CDB /* PokemonDetailViewController.swift */; };
+		3D1AFB28247A6B5B003F8CDB /* PokemonDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1AFB27247A6B5B003F8CDB /* PokemonDataModel.swift */; };
 		3D3ECCE124798A91003AE1AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ECCE024798A91003AE1AD /* AppDelegate.swift */; };
 		3D3ECCE324798A91003AE1AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ECCE224798A91003AE1AD /* SceneDelegate.swift */; };
-		3D3ECCE524798A91003AE1AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ECCE424798A91003AE1AD /* ViewController.swift */; };
+		3D3ECCE524798A91003AE1AD /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ECCE424798A91003AE1AD /* WeatherViewController.swift */; };
 		3D3ECCE824798A91003AE1AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3ECCE624798A91003AE1AD /* Main.storyboard */; };
 		3D3ECCEA24798A92003AE1AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3ECCE924798A92003AE1AD /* Assets.xcassets */; };
 		3D3ECCED24798A92003AE1AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3ECCEB24798A92003AE1AD /* LaunchScreen.storyboard */; };
+		3D3ECCFE2479EDB4003AE1AD /* SearchPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ECCFD2479EDB4003AE1AD /* SearchPageViewController.swift */; };
+		3D3ECD012479FA60003AE1AD /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ECD002479FA60003AE1AD /* AppConstants.swift */; };
+		3D6FEC15247A3DE7003496EB /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6FEC14247A3DE7003496EB /* UserAuthentication.swift */; };
+		3D6FEC17247A4616003496EB /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6FEC16247A4616003496EB /* AlertManager.swift */; };
+		3D6FEC19247A58BD003496EB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6FEC18247A58BD003496EB /* TabBarController.swift */; };
+		3D6FEC1B247A5CEF003496EB /* PokemonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6FEC1A247A5CEF003496EB /* PokemonCollectionViewCell.swift */; };
+		3D959B59247B210D00D152EF /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959B58247B210D00D152EF /* PhotoCollectionViewCell.swift */; };
+		3D959B5B247B21AA00D152EF /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959B5A247B21AA00D152EF /* PhotoLibraryViewController.swift */; };
+		3D959B5F247B245400D152EF /* PhotoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959B5E247B245400D152EF /* PhotoDataModel.swift */; };
+		8659A3F0F572948DA45BF0E9 /* Pods_TabBarTasks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85BBA5D4E3655A9D7C23213 /* Pods_TabBarTasks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D1773E5247A099D0058D060 /* AppDelegationMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegationMethods.swift; sourceTree = "<group>"; };
+		3D1773E7247A09BE0058D060 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
+		3D1773EA247A1A9E0058D060 /* PokemonCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewController.swift; sourceTree = "<group>"; };
+		3D1773EC247A1AC30058D060 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3D1773EF247A1E4A0058D060 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3D1AFB25247A69D6003F8CDB /* PokemonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailViewController.swift; sourceTree = "<group>"; };
+		3D1AFB27247A6B5B003F8CDB /* PokemonDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDataModel.swift; sourceTree = "<group>"; };
 		3D3ECCDD24798A91003AE1AD /* TabBarTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3ECCE024798A91003AE1AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D3ECCE224798A91003AE1AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D3ECCE424798A91003AE1AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D3ECCE424798A91003AE1AD /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		3D3ECCE724798A91003AE1AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D3ECCE924798A92003AE1AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D3ECCEC24798A92003AE1AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D3ECCEE24798A92003AE1AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3ECCFD2479EDB4003AE1AD /* SearchPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageViewController.swift; sourceTree = "<group>"; };
+		3D3ECD002479FA60003AE1AD /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		3D6FEC14247A3DE7003496EB /* UserAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthentication.swift; sourceTree = "<group>"; };
+		3D6FEC16247A4616003496EB /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		3D6FEC18247A58BD003496EB /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		3D6FEC1A247A5CEF003496EB /* PokemonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D959B58247B210D00D152EF /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D959B5A247B21AA00D152EF /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		3D959B5E247B245400D152EF /* PhotoDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataModel.swift; sourceTree = "<group>"; };
+		62DECEDE4913D81D302C9123 /* Pods-TabBarTasks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarTasks.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabBarTasks/Pods-TabBarTasks.release.xcconfig"; sourceTree = "<group>"; };
+		87D497D456FE511B314B52FD /* Pods-TabBarTasks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarTasks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabBarTasks/Pods-TabBarTasks.debug.xcconfig"; sourceTree = "<group>"; };
+		D85BBA5D4E3655A9D7C23213 /* Pods_TabBarTasks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBarTasks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8659A3F0F572948DA45BF0E9 /* Pods_TabBarTasks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D1773E9247A1A770058D060 /* PokeDex */ = {
+			isa = PBXGroup;
+			children = (
+				3D1773EA247A1A9E0058D060 /* PokemonCollectionViewController.swift */,
+				3D1AFB25247A69D6003F8CDB /* PokemonDetailViewController.swift */,
+			);
+			name = PokeDex;
+			sourceTree = "<group>";
+		};
+		3D1773EE247A1E300058D060 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				3D1773EC247A1AC30058D060 /* LoginViewController.swift */,
+				3D1773EF247A1E4A0058D060 /* RegisterViewController.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
 		3D3ECCD424798A91003AE1AD = {
 			isa = PBXGroup;
 			children = (
 				3D3ECCDF24798A91003AE1AD /* TabBarTasks */,
 				3D3ECCDE24798A91003AE1AD /* Products */,
+				9FB5F1EA92A1F168304997C7 /* Pods */,
+				9CC5172B9937E167FD810FBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +113,118 @@
 		3D3ECCDF24798A91003AE1AD /* TabBarTasks */ = {
 			isa = PBXGroup;
 			children = (
-				3D3ECCE024798A91003AE1AD /* AppDelegate.swift */,
-				3D3ECCE224798A91003AE1AD /* SceneDelegate.swift */,
-				3D3ECCE424798A91003AE1AD /* ViewController.swift */,
-				3D3ECCE624798A91003AE1AD /* Main.storyboard */,
-				3D3ECCE924798A92003AE1AD /* Assets.xcassets */,
-				3D3ECCEB24798A92003AE1AD /* LaunchScreen.storyboard */,
-				3D3ECCEE24798A92003AE1AD /* Info.plist */,
+				3D3ECCF424798AA4003AE1AD /* Common */,
+				3D3ECCF824798B33003AE1AD /* Model */,
+				3D3ECCF624798ABF003AE1AD /* View */,
+				3D3ECCF524798AAC003AE1AD /* Controller */,
+				3D3ECCF724798ACD003AE1AD /* SupportFiles */,
 			);
 			path = TabBarTasks;
+			sourceTree = "<group>";
+		};
+		3D3ECCF424798AA4003AE1AD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3D3ECCE024798A91003AE1AD /* AppDelegate.swift */,
+				3D3ECCE224798A91003AE1AD /* SceneDelegate.swift */,
+				3D3ECCF924798B5B003AE1AD /* Utilities */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3D3ECCF524798AAC003AE1AD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D6FEC18247A58BD003496EB /* TabBarController.swift */,
+				3D1773EE247A1E300058D060 /* User */,
+				3D1773E9247A1A770058D060 /* PokeDex */,
+				3D3ECCFF2479EDC4003AE1AD /* Weather */,
+				3D959B55247B160500D152EF /* PhotoLibrary */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D3ECCF624798ABF003AE1AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D6FEC1C247A5CF7003496EB /* CustomizeCell */,
+				3D3ECCE624798A91003AE1AD /* Main.storyboard */,
+				3D3ECCEB24798A92003AE1AD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D3ECCF724798ACD003AE1AD /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3D3ECCE924798A92003AE1AD /* Assets.xcassets */,
+				3D3ECCEE24798A92003AE1AD /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		3D3ECCF824798B33003AE1AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D1773E7247A09BE0058D060 /* WeatherDataModel.swift */,
+				3D1AFB27247A6B5B003F8CDB /* PokemonDataModel.swift */,
+				3D959B5E247B245400D152EF /* PhotoDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D3ECCF924798B5B003AE1AD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3D3ECD002479FA60003AE1AD /* AppConstants.swift */,
+				3D1773E5247A099D0058D060 /* AppDelegationMethods.swift */,
+				3D6FEC14247A3DE7003496EB /* UserAuthentication.swift */,
+				3D6FEC16247A4616003496EB /* AlertManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3D3ECCFF2479EDC4003AE1AD /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				3D3ECCE424798A91003AE1AD /* WeatherViewController.swift */,
+				3D3ECCFD2479EDB4003AE1AD /* SearchPageViewController.swift */,
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
+		3D6FEC1C247A5CF7003496EB /* CustomizeCell */ = {
+			isa = PBXGroup;
+			children = (
+				3D6FEC1A247A5CEF003496EB /* PokemonCollectionViewCell.swift */,
+				3D959B58247B210D00D152EF /* PhotoCollectionViewCell.swift */,
+			);
+			path = CustomizeCell;
+			sourceTree = "<group>";
+		};
+		3D959B55247B160500D152EF /* PhotoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				3D959B5A247B21AA00D152EF /* PhotoLibraryViewController.swift */,
+			);
+			name = PhotoLibrary;
+			sourceTree = "<group>";
+		};
+		9CC5172B9937E167FD810FBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D85BBA5D4E3655A9D7C23213 /* Pods_TabBarTasks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FB5F1EA92A1F168304997C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87D497D456FE511B314B52FD /* Pods-TabBarTasks.debug.xcconfig */,
+				62DECEDE4913D81D302C9123 /* Pods-TabBarTasks.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D3ECCF124798A92003AE1AD /* Build configuration list for PBXNativeTarget "TabBarTasks" */;
 			buildPhases = (
+				996C0FD7CB846AD1033A12F3 /* [CP] Check Pods Manifest.lock */,
 				3D3ECCD924798A91003AE1AD /* Sources */,
 				3D3ECCDA24798A91003AE1AD /* Frameworks */,
 				3D3ECCDB24798A91003AE1AD /* Resources */,
+				009683C18EC0E3E07E6D6390 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +295,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		009683C18EC0E3E07E6D6390 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TabBarTasks/Pods-TabBarTasks-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CollectionViewSlantedLayout/CollectionViewSlantedLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/Gemini/Gemini.framework",
+				"${BUILT_PRODUCTS_DIR}/LGButton/LGButton.framework",
+				"${BUILT_PRODUCTS_DIR}/LoginTextField/LoginTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/PMAlertController/PMAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CollectionViewSlantedLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gemini.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LoginTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewAnimator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabBarTasks/Pods-TabBarTasks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		996C0FD7CB846AD1033A12F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabBarTasks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D3ECCD924798A91003AE1AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D3ECCE524798A91003AE1AD /* ViewController.swift in Sources */,
+				3D959B5F247B245400D152EF /* PhotoDataModel.swift in Sources */,
+				3D1773E8247A09BE0058D060 /* WeatherDataModel.swift in Sources */,
+				3D1773F0247A1E4A0058D060 /* RegisterViewController.swift in Sources */,
+				3D959B5B247B21AA00D152EF /* PhotoLibraryViewController.swift in Sources */,
+				3D6FEC17247A4616003496EB /* AlertManager.swift in Sources */,
+				3D1AFB28247A6B5B003F8CDB /* PokemonDataModel.swift in Sources */,
+				3D3ECCE524798A91003AE1AD /* WeatherViewController.swift in Sources */,
+				3D959B59247B210D00D152EF /* PhotoCollectionViewCell.swift in Sources */,
+				3D3ECD012479FA60003AE1AD /* AppConstants.swift in Sources */,
+				3D1AFB26247A69D6003F8CDB /* PokemonDetailViewController.swift in Sources */,
+				3D3ECCFE2479EDB4003AE1AD /* SearchPageViewController.swift in Sources */,
+				3D6FEC15247A3DE7003496EB /* UserAuthentication.swift in Sources */,
+				3D1773E6247A099D0058D060 /* AppDelegationMethods.swift in Sources */,
 				3D3ECCE124798A91003AE1AD /* AppDelegate.swift in Sources */,
+				3D1773EB247A1A9E0058D060 /* PokemonCollectionViewController.swift in Sources */,
+				3D6FEC19247A58BD003496EB /* TabBarController.swift in Sources */,
+				3D1773ED247A1AC30058D060 /* LoginViewController.swift in Sources */,
+				3D6FEC1B247A5CEF003496EB /* PokemonCollectionViewCell.swift in Sources */,
 				3D3ECCE324798A91003AE1AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +515,12 @@
 		};
 		3D3ECCF224798A92003AE1AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D497D456FE511B314B52FD /* Pods-TabBarTasks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NAJ323R5S;
-				INFOPLIST_FILE = TabBarTasks/Info.plist;
+				INFOPLIST_FILE = TabBarTasks/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +534,12 @@
 		};
 		3D3ECCF324798A92003AE1AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62DECEDE4913D81D302C9123 /* Pods-TabBarTasks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NAJ323R5S;
-				INFOPLIST_FILE = TabBarTasks/Info.plist;
+				INFOPLIST_FILE = TabBarTasks/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
