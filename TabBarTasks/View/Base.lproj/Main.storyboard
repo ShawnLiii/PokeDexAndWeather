@@ -45,16 +45,32 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fEN-5N-Mfc">
+                                <rect key="frame" x="275" y="752" width="119" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="119" id="FSn-6g-mqY"/>
+                                    <constraint firstAttribute="height" constant="61" id="Zvs-yW-RgF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <state key="normal" title="ReFresh">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="refreshBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wat-gs-FuD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="sbg-oL-zMA" secondAttribute="bottom" id="4NS-H8-URV"/>
+                            <constraint firstItem="fEN-5N-Mfc" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5eU-0Y-tOq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X50-nC-KWy" secondAttribute="trailing" constant="20" id="65S-VA-1Ff"/>
                             <constraint firstItem="X50-nC-KWy" firstAttribute="top" secondItem="lep-UM-cy0" secondAttribute="bottom" constant="30" id="6Nt-Nd-ll8"/>
                             <constraint firstItem="lep-UM-cy0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="C4d-CJ-qgP"/>
                             <constraint firstItem="lep-UM-cy0" firstAttribute="top" secondItem="YeZ-lH-WIR" secondAttribute="bottom" constant="8" id="C8B-rj-Nos"/>
                             <constraint firstItem="lep-UM-cy0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G0D-qn-XIb"/>
                             <constraint firstItem="X50-nC-KWy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Mjv-nZ-oVo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fEN-5N-Mfc" secondAttribute="trailing" constant="20" id="OLJ-oq-31g"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YeZ-lH-WIR" secondAttribute="trailing" constant="20" id="RDj-vJ-QBR"/>
                             <constraint firstItem="sbg-oL-zMA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dN9-LP-LEH"/>
                             <constraint firstItem="sbg-oL-zMA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="djO-vk-ulA"/>
@@ -63,7 +79,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Weather" id="C03-5i-T99">
-                        <barButtonItem key="leftBarButtonItem" title="Logout" id="tvY-p8-fQi">
+                        <barButtonItem key="leftBarButtonItem" title="Log out" id="tvY-p8-fQi">
                             <connections>
                                 <action selector="logoutBtnTapped:" destination="BYZ-38-t0r" id="Ikg-Dq-ihm"/>
                             </connections>
@@ -82,7 +98,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1000" y="1654"/>
+            <point key="canvasLocation" x="1000.0000000000001" y="1653.3482142857142"/>
         </scene>
         <!--Photo Library-->
         <scene sceneID="LZh-EH-iFX">
@@ -138,6 +154,11 @@
                         <viewLayoutGuide key="safeArea" id="xdj-Aq-7AD"/>
                     </view>
                     <navigationItem key="navigationItem" title="Photo Library" id="DPa-T0-UFl">
+                        <barButtonItem key="leftBarButtonItem" title="Refresh" id="cvY-Ch-RFR">
+                            <connections>
+                                <action selector="refreshBtnTapped:" destination="bVo-Uz-WpD" id="M3x-Hh-IUE"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Log out" id="ptf-Rq-05S">
                             <connections>
                                 <action selector="logoutTapped:" destination="bVo-Uz-WpD" id="dbh-a7-jLs"/>
@@ -226,7 +247,7 @@
                         <viewLayoutGuide key="safeArea" id="Ibo-sl-C49"/>
                     </view>
                     <navigationItem key="navigationItem" id="C9p-NN-ZVc">
-                        <barButtonItem key="rightBarButtonItem" title="Logout" id="63o-8t-c72">
+                        <barButtonItem key="rightBarButtonItem" title="Log out" id="63o-8t-c72">
                             <connections>
                                 <action selector="logoutBtnTapped:" destination="8DE-Fh-4ME" id="PhI-bO-EKP"/>
                             </connections>
@@ -361,7 +382,11 @@
         <scene sceneID="qnQ-N9-epe">
             <objects>
                 <navigationController storyboardIdentifier="NavigationController1" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="I7H-4N-22w" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Pokemon Dex" image="doc.text.magnifyingglass" catalog="system" landscapeImage="lock" selectedImage="doc.text.magnifyingglass" id="yMR-EN-qZA"/>
+                    <tabBarItem key="tabBarItem" title="Pokemon Dex" image="doc.text.magnifyingglass" catalog="system" landscapeImage="lock" selectedImage="doc.text.magnifyingglass" id="yMR-EN-qZA" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <connections>
+                            <outlet property="animation" destination="voR-fS-tH6" id="5Nr-ph-1Od"/>
+                        </connections>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="RsZ-MX-UeC">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -373,6 +398,7 @@
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rE9-KA-mlt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <customObject id="voR-fS-tH6" customClass="RAMLeftRotationAnimation" customModule="RAMAnimatedTabBarController"/>
             </objects>
             <point key="canvasLocation" x="-1" y="909"/>
         </scene>
@@ -707,7 +733,11 @@
         <scene sceneID="YoT-Lz-q4s">
             <objects>
                 <navigationController storyboardIdentifier="NavigationController2" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="N2x-LD-YWn" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Weather" image="sun.min" catalog="system" id="Xa5-Qq-rlg"/>
+                    <tabBarItem key="tabBarItem" title="Weather" image="sun.max" catalog="system" id="Xa5-Qq-rlg" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <connections>
+                            <outlet property="animation" destination="YNk-wD-h8S" id="zQE-o5-vYr"/>
+                        </connections>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" largeTitles="YES" id="ijR-pY-MK9">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -720,13 +750,14 @@
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AZp-0j-Cc9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <customObject id="YNk-wD-h8S" customClass="RAMRightRotationAnimation" customModule="RAMAnimatedTabBarController"/>
             </objects>
             <point key="canvasLocation" x="1000" y="909"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Login Navigation Controller-->
         <scene sceneID="FWK-ZH-QDK">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Zdi-ch-OGu" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LoginNavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zdi-ch-OGu" customClass="LoginNavigationController" customModule="TabBarTasks" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="tYe-O7-UNn">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -745,7 +776,11 @@
         <scene sceneID="IMR-fF-oPQ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="29n-zW-9g8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="PhotoLibrary" image="photo.on.rectangle" catalog="system" id="Cct-tg-JXQ"/>
+                    <tabBarItem key="tabBarItem" title="PhotoLibrary" image="photo.on.rectangle" catalog="system" id="Cct-tg-JXQ" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <connections>
+                            <outlet property="animation" destination="quh-dN-bbN" id="R7h-ho-9q4"/>
+                        </connections>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="eQl-uU-8hl">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -757,6 +792,7 @@
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YCp-zO-HWu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <customObject id="quh-dN-bbN" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
             </objects>
             <point key="canvasLocation" x="2034.7826086956522" y="908.70535714285711"/>
         </scene>
@@ -772,7 +808,7 @@
         <image name="lock" catalog="system" width="128" height="128"/>
         <image name="login" width="21" height="21"/>
         <image name="photo.on.rectangle" catalog="system" width="128" height="98"/>
-        <image name="sun.min" catalog="system" width="128" height="121"/>
+        <image name="sun.max" catalog="system" width="128" height="124"/>
         <image name="sunny" width="42.5" height="42.5"/>
         <image name="switch" width="42.5" height="42.5"/>
     </resources>

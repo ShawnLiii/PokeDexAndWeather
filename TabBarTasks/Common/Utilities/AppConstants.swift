@@ -37,6 +37,7 @@ struct AppConstants
         static let detailPageSegueID = "detail"
         static let photoLibPageID = "PhotoLibraryViewController"
         static let photoCellID = "photo"
+        static let navControllerID = "LoginNavigationController"
     }
     
     struct UserInfo

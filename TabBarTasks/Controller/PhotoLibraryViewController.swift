@@ -8,7 +8,7 @@
 
 import UIKit
 import Gemini
-import Alamofire
+import SVProgressHUD
 
 class PhotoLibraryViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
 {
@@ -22,8 +22,21 @@ class PhotoLibraryViewController: UIViewController, UICollectionViewDelegate, UI
         super.viewDidLoad()
         collectionView.delegate = self
         collectionView.dataSource = self
+        SVProgressHUD.setContainerView(self.view)
         fetchDataSource()
         setupAnimation()
+    }
+    
+    override func viewWillAppear(_ animated: Bool)
+    {
+        SVProgressHUD.show()
+    }
+    
+    
+    @IBAction func refreshBtnTapped(_ sender: UIBarButtonItem)
+    {
+        SVProgressHUD.show()
+        fetchDataSource()
     }
     
     @IBAction func logoutTapped(_ sender: UIBarButtonItem)
@@ -34,21 +47,19 @@ class PhotoLibraryViewController: UIViewController, UICollectionViewDelegate, UI
     //MARK: - Fetch Data Source
     func fetchDataSource()
     {
-        AF.request(AppConstants.NetworkAPI.photoAPI).responseJSON
-            { (response) in
-                if let data = response.data
-                {
-                    do
-                    {
-                        let photoContainer = try JSONDecoder().decode(PhotoData.self, from: data)
-                        self.photos = photoContainer.items
-                        self.collectionView.reloadData()
-                    }
-                    catch
-                    {
-                        print(error)
-                    }
-                }
+        Service.shared.handleDataResponse(url: AppConstants.NetworkAPI.photoAPI)
+        { (data) in
+            do
+            {
+                let photoContainer = try JSONDecoder().decode(PhotoData.self, from: data)
+                self.photos = photoContainer.items
+                self.collectionView.reloadData()
+                SVProgressHUD.dismiss()
+            }
+            catch
+            {
+                print(error)
+            }
         }
     }
     
@@ -72,14 +83,12 @@ class PhotoLibraryViewController: UIViewController, UICollectionViewDelegate, UI
     {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AppConstants.StoryBoardID.photoCellID, for: indexPath) as! PhotoCollectionViewCell
     
-        // Download Data
-        AF.request(photos[indexPath.row].media.m).response
-        { (response) in
-            if let data = response.data
-            {
-                cell.photoImage.image = UIImage(data: data)
-            }
+        // Download image
+        Service.shared.handleDataResponse(url: photos[indexPath.row].media.m)
+        { (data) in
+            cell.photoImage.image = UIImage(data: data)
         }
+
         //Animation
         self.collectionView.animateCell(cell)
         return cell

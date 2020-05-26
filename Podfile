@@ -15,4 +15,6 @@ pod 'LGButton'
 pod 'PMAlertController'
 pod 'CollectionViewSlantedLayout'
 pod 'ViewAnimator'
+pod 'LTMorphingLabel'
+pod 'RAMAnimatedTabBarController'
 end

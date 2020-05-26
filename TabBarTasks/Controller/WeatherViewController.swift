@@ -8,7 +8,6 @@
 
 import UIKit
 import CoreLocation
-import Alamofire
 import SwiftyJSON
 import SVProgressHUD
 
@@ -41,6 +40,11 @@ class WeatherViewController: UIViewController, SelectCityDelegate
         UserAuthentication.logout(forWhichPage: self)
     }
     
+    @IBAction func refreshBtnTapped(_ sender: UIButton)
+    {
+        getUserlocation()
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         if segue.identifier == "search"
@@ -59,15 +63,12 @@ class WeatherViewController: UIViewController, SelectCityDelegate
     
     func getWeather(para: [String:String])
     {
-        AF.request(AppConstants.NetworkAPI.weatherAPI, parameters: para).responseJSON
-        { response in
-            if let json = response.value
-            {
-                let weather = JSON(json)
-                self.createWeather(weatherJSON: weather)
-                self.updateUI()
-                SVProgressHUD.dismiss()
-            }
+        Service.shared.handleAnyResponse(url: AppConstants.NetworkAPI.weatherAPI, parameter: para)
+        { (json) in
+            let weather = JSON(json)
+            self.createWeather(weatherJSON: weather)
+            self.updateUI()
+            SVProgressHUD.dismiss()
         }
     }
     

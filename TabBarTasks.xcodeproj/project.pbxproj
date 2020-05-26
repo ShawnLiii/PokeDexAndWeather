@@ -26,9 +26,11 @@
 		3D6FEC17247A4616003496EB /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6FEC16247A4616003496EB /* AlertManager.swift */; };
 		3D6FEC19247A58BD003496EB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6FEC18247A58BD003496EB /* TabBarController.swift */; };
 		3D6FEC1B247A5CEF003496EB /* PokemonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6FEC1A247A5CEF003496EB /* PokemonCollectionViewCell.swift */; };
+		3D7690DC247C63BA0067A6B0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7690DB247C63BA0067A6B0 /* Service.swift */; };
 		3D959B59247B210D00D152EF /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959B58247B210D00D152EF /* PhotoCollectionViewCell.swift */; };
 		3D959B5B247B21AA00D152EF /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959B5A247B21AA00D152EF /* PhotoLibraryViewController.swift */; };
 		3D959B5F247B245400D152EF /* PhotoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959B5E247B245400D152EF /* PhotoDataModel.swift */; };
+		3DE162E3247C2FA700560C64 /* LoginNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE162E2247C2FA700560C64 /* LoginNavigationController.swift */; };
 		8659A3F0F572948DA45BF0E9 /* Pods_TabBarTasks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85BBA5D4E3655A9D7C23213 /* Pods_TabBarTasks.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,9 +56,11 @@
 		3D6FEC16247A4616003496EB /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 		3D6FEC18247A58BD003496EB /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		3D6FEC1A247A5CEF003496EB /* PokemonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D7690DB247C63BA0067A6B0 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		3D959B58247B210D00D152EF /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		3D959B5A247B21AA00D152EF /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryViewController.swift; sourceTree = "<group>"; };
 		3D959B5E247B245400D152EF /* PhotoDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataModel.swift; sourceTree = "<group>"; };
+		3DE162E2247C2FA700560C64 /* LoginNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNavigationController.swift; sourceTree = "<group>"; };
 		62DECEDE4913D81D302C9123 /* Pods-TabBarTasks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarTasks.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabBarTasks/Pods-TabBarTasks.release.xcconfig"; sourceTree = "<group>"; };
 		87D497D456FE511B314B52FD /* Pods-TabBarTasks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBarTasks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabBarTasks/Pods-TabBarTasks.debug.xcconfig"; sourceTree = "<group>"; };
 		D85BBA5D4E3655A9D7C23213 /* Pods_TabBarTasks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBarTasks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +121,7 @@
 				3D3ECCF824798B33003AE1AD /* Model */,
 				3D3ECCF624798ABF003AE1AD /* View */,
 				3D3ECCF524798AAC003AE1AD /* Controller */,
+				3D7690DA247C638A0067A6B0 /* Service */,
 				3D3ECCF724798ACD003AE1AD /* SupportFiles */,
 			);
 			path = TabBarTasks;
@@ -135,7 +140,7 @@
 		3D3ECCF524798AAC003AE1AD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3D6FEC18247A58BD003496EB /* TabBarController.swift */,
+				3DE162E4247C32FC00560C64 /* RootController */,
 				3D1773EE247A1E300058D060 /* User */,
 				3D1773E9247A1A770058D060 /* PokeDex */,
 				3D3ECCFF2479EDC4003AE1AD /* Weather */,
@@ -202,12 +207,29 @@
 			path = CustomizeCell;
 			sourceTree = "<group>";
 		};
+		3D7690DA247C638A0067A6B0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3D7690DB247C63BA0067A6B0 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		3D959B55247B160500D152EF /* PhotoLibrary */ = {
 			isa = PBXGroup;
 			children = (
 				3D959B5A247B21AA00D152EF /* PhotoLibraryViewController.swift */,
 			);
 			name = PhotoLibrary;
+			sourceTree = "<group>";
+		};
+		3DE162E4247C32FC00560C64 /* RootController */ = {
+			isa = PBXGroup;
+			children = (
+				3D6FEC18247A58BD003496EB /* TabBarController.swift */,
+				3DE162E2247C2FA700560C64 /* LoginNavigationController.swift */,
+			);
+			name = RootController;
 			sourceTree = "<group>";
 		};
 		9CC5172B9937E167FD810FBC /* Frameworks */ = {
@@ -307,8 +329,10 @@
 				"${BUILT_PRODUCTS_DIR}/CollectionViewSlantedLayout/CollectionViewSlantedLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/Gemini/Gemini.framework",
 				"${BUILT_PRODUCTS_DIR}/LGButton/LGButton.framework",
+				"${BUILT_PRODUCTS_DIR}/LTMorphingLabel/LTMorphingLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/LoginTextField/LoginTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/PMAlertController/PMAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework",
@@ -319,8 +343,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CollectionViewSlantedLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gemini.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTMorphingLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LoginTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewAnimator.framework",
@@ -363,9 +389,11 @@
 				3D1AFB28247A6B5B003F8CDB /* PokemonDataModel.swift in Sources */,
 				3D3ECCE524798A91003AE1AD /* WeatherViewController.swift in Sources */,
 				3D959B59247B210D00D152EF /* PhotoCollectionViewCell.swift in Sources */,
+				3D7690DC247C63BA0067A6B0 /* Service.swift in Sources */,
 				3D3ECD012479FA60003AE1AD /* AppConstants.swift in Sources */,
 				3D1AFB26247A69D6003F8CDB /* PokemonDetailViewController.swift in Sources */,
 				3D3ECCFE2479EDB4003AE1AD /* SearchPageViewController.swift in Sources */,
+				3DE162E3247C2FA700560C64 /* LoginNavigationController.swift in Sources */,
 				3D6FEC15247A3DE7003496EB /* UserAuthentication.swift in Sources */,
 				3D1773E6247A099D0058D060 /* AppDelegationMethods.swift in Sources */,
 				3D3ECCE124798A91003AE1AD /* AppDelegate.swift in Sources */,

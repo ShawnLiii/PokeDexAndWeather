@@ -7,10 +7,10 @@
 //
 
 import UIKit
-import Alamofire
 import SwiftyJSON
 import CollectionViewSlantedLayout
 import ViewAnimator
+import SVProgressHUD
 
 class PokemonCollectionViewController: UICollectionViewController
 {
@@ -24,6 +24,16 @@ class PokemonCollectionViewController: UICollectionViewController
         setupUI()
     }
     
+    override func viewWillAppear(_ animated: Bool)
+    {
+        SVProgressHUD.show()
+    }
+    
+    override func viewDidAppear(_ animated: Bool)
+    {
+        SVProgressHUD.dismiss()
+    }
+    
     @IBAction func logoutBtnTapped(_ sender: UIBarButtonItem)
     {
         UserAuthentication.logout(forWhichPage: self)
@@ -31,6 +41,7 @@ class PokemonCollectionViewController: UICollectionViewController
     
     func setupUI()
     {
+        SVProgressHUD.setContainerView(self.view)
         let slantedSayout = CollectionViewSlantedLayout()
         collectionView.collectionViewLayout = slantedSayout
         fetchDataSource()
@@ -38,16 +49,13 @@ class PokemonCollectionViewController: UICollectionViewController
     
     func fetchDataSource()
     {
-        AF.request(AppConstants.NetworkAPI.pokemonAPI).responseJSON
-            { (response) in
-                if let json = response.value
-                {
-                    var pokemonJSON = JSON(json)
-                    // Remove first nil object
-                    pokemonJSON.arrayObject?.remove(at: 0)
-                    self.createPokemonContainer(json: pokemonJSON)
-                    self.collectionView.reloadData()
-                }
+        Service.shared.handleAnyResponse(url: AppConstants.NetworkAPI.pokemonAPI)
+        { (json) in
+            var pokemonJSON = JSON(json)
+            // Remove first nil object
+            pokemonJSON.arrayObject?.remove(at: 0)
+            self.createPokemonContainer(json: pokemonJSON)
+            self.collectionView.reloadData()
         }
     }
     
@@ -92,21 +100,21 @@ class PokemonCollectionViewController: UICollectionViewController
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AppConstants.StoryBoardID.collectionViewCellID, for: indexPath) as! PokemonCollectionViewCell
-        // Donwload Image
-        AF.request(pokemons[indexPath.row].imageUrl!).response
-        { (response) in
-            if let data = response.data
-            {
-                cell.pokeImage.image = UIImage(data: data)
-            }
-        }
         
+        // Donwload Image
+        Service.shared.handleDataResponse(url: pokemons[indexPath.row].imageUrl!)
+        { (data) in
+            cell.pokeImage.image = UIImage(data: data)
+        }
+
         cell.pokeNameLabel.text = pokemons[indexPath.row].name
         cell.pokeNumLabel.text = String(pokemons[indexPath.row].id)
         //Animation
         let zoomAnimation = AnimationType.zoom(scale: 0.2)
         let rotateAnimation = AnimationType.rotate(angle: CGFloat.pi/6)
         UIView.animate(views: [cell], animations: [zoomAnimation, rotateAnimation], duration: 1.5)
+        
+        SVProgressHUD.dismiss()
         return cell
     }
 

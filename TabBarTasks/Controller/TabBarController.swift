@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import RAMAnimatedTabBarController
 
-class TabBarController: UITabBarController
+class TabBarController: RAMAnimatedTabBarController
 {
 
     override func viewDidLoad() {
