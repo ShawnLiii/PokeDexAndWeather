@@ -21,7 +21,7 @@ class AlertManager
         case cityNameEmpty = "City Name Can't be Empty"
     }
     
-    static func alert(forWhichPage viewController: UIViewController, alertType: AlertType)
+    static func alert(forWhichPage viewController: UIViewController, alertType: AlertType, handler: (() -> Void)?)
     {
         var message = String()
         var title = "Warning!"
@@ -46,8 +46,20 @@ class AlertManager
         }
         
         let alterController = PMAlertController(title: title, description: message, image: UIImage(named: imageName), style: .alert)
-        let alertAction = PMAlertAction(title: "OK", style: .default)
+        
+        var alertAction = PMAlertAction(title: "OK", style: .default)
+        
+        if alertType == .registerSuccess
+        {
+            alertAction = PMAlertAction(title: "Mua", style: .default, action:
+            {
+                handler!()
+            })
+        }
+        
         alterController.addAction(alertAction)
         viewController.present(alterController, animated: true, completion: nil)
+        
+        
     }
 }

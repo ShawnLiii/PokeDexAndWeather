@@ -13,3 +13,8 @@ protocol SelectCityDelegate
 {
     func didChangeCity(weatherJSON: JSON)
 }
+
+protocol LoginDelegate
+{
+    func fillUserName(username: String)
+}

@@ -40,14 +40,14 @@ class SearchPageViewController: UIViewController, UITextFieldDelegate
                 }
                 else
                 {
-                    AlertManager.alert(forWhichPage: self, alertType: .cityNameNotExist)
+                    AlertManager.alert(forWhichPage: self, alertType: .cityNameNotExist, handler: nil)
                 }
                 
             }
         }
         else
         {
-            AlertManager.alert(forWhichPage: self, alertType: .cityNameEmpty)
+            AlertManager.alert(forWhichPage: self, alertType: .cityNameEmpty, handler: nil)
         }
         
     }

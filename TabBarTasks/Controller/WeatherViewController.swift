@@ -106,6 +106,7 @@ extension WeatherViewController: CLLocationManagerDelegate
     {
         let lat = locations[0].coordinate.latitude
         let lon = locations[0].coordinate.longitude
+        
         let paras = ["lat" : "\(lat)", "lon" : "\(lon)", "appid" : AppConstants.NetworkAPI.appid]
         
         getWeather(para: paras)

@@ -22,7 +22,7 @@ class UserAuthentication
         viewController.view.addSubview(userNameTF)
     }
     
-    static func passwordTFSetup(passwordTF: inout LoginTextField,forWhichPage viewController: UIViewController, isLoginPage: Bool)
+    static func passwordTFSetup(passwordTF: inout LoginTextField,forWhichPage viewController: UIViewController)
     {
         passwordTF = LoginTextField.init(frame: CGRect(x: 10, y: 360, width: AppConstants.TextField.widthOfTF, height: AppConstants.TextField.heightOfTF))
         passwordTF.image = UIImage(systemName: "lock")
@@ -30,13 +30,9 @@ class UserAuthentication
         passwordTF.placeholderColor = .gray
         passwordTF.borderStyle = .roundedRect
         passwordTF.keyboardAppearance = .dark
-        
-        if isLoginPage
-        {
-            passwordTF.isSecureTextEntry = true
-            passwordTF.showPasswordApperanceButton = true
-        }
-        
+        passwordTF.isSecureTextEntry = true
+        passwordTF.showPasswordApperanceButton = true
+    
         viewController.view.addSubview(passwordTF)
     }
     

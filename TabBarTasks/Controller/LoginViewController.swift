@@ -10,8 +10,9 @@ import UIKit
 import LoginTextField
 import LGButton
 
-class LoginViewController: UIViewController, UITextFieldDelegate
+class LoginViewController: UIViewController, UITextFieldDelegate, LoginDelegate
 {
+
     var userNameTF = LoginTextField()
     var passwordTF = LoginTextField()
     
@@ -39,12 +40,12 @@ class LoginViewController: UIViewController, UITextFieldDelegate
             }
             else
             {
-                AlertManager.alert(forWhichPage: self, alertType: .userAuthenticationFailed)
+                AlertManager.alert(forWhichPage: self, alertType: .userAuthenticationFailed, handler: nil)
             }
         }
         else
         {
-           AlertManager.alert(forWhichPage: self, alertType: .userAuthenticationEmpty)
+           AlertManager.alert(forWhichPage: self, alertType: .userAuthenticationEmpty, handler: nil)
         }
     }
     
@@ -53,9 +54,14 @@ class LoginViewController: UIViewController, UITextFieldDelegate
         // User Name
         UserAuthentication.userNameTFSetup(userNameTF: &userNameTF, forWhichPage: self)
         //Password
-        UserAuthentication.passwordTFSetup(passwordTF: &passwordTF, forWhichPage: self, isLoginPage: true)
+        UserAuthentication.passwordTFSetup(passwordTF: &passwordTF, forWhichPage: self)
         userNameTF.delegate = self
         passwordTF.delegate = self
+    }
+    
+    func fillUserName(username: String)
+    {
+        userNameTF.text = username
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool
@@ -65,4 +71,9 @@ class LoginViewController: UIViewController, UITextFieldDelegate
         return true
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        let vc = segue.destination as! RegisterViewController
+        vc.delegate = self
+    }
 }

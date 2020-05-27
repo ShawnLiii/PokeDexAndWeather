@@ -39,13 +39,14 @@ class Service
     
     func handleAnyResponse(url: URLConvertible, parameter: Parameters, handler: @escaping (Any) -> ())
     {
-        AF.request(AppConstants.NetworkAPI.weatherAPI, parameters: parameter).responseJSON
+        AF.request(url, parameters: parameter).responseJSON
         { response in
             if let json = response.value
             {
                 handler(json)
             }
         }
+        
     }
     
 }

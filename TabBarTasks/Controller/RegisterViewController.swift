@@ -15,6 +15,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate
 
     var userNameTF = LoginTextField()
     var passwordTF = LoginTextField()
+    var delegate: LoginDelegate?
     
     override func viewDidLoad()
     {
@@ -28,17 +29,22 @@ class RegisterViewController: UIViewController, UITextFieldDelegate
         {
             if isKeyPresentInUserDefaults(key: username)
             {
-                AlertManager.alert(forWhichPage: self, alertType: .userExist)
+                AlertManager.alert(forWhichPage: self, alertType: .userExist, handler: nil)
             }
             else
             {
                 UserDefaults.standard.set(password, forKey: username)
+                delegate?.fillUserName(username: username)
                 AlertManager.alert(forWhichPage: self, alertType: .registerSuccess)
+                {
+                    self.navigationController?.popToRootViewController(animated: true)
+                }
+                
             }
         }
         else
         {
-            AlertManager.alert(forWhichPage: self, alertType: .userAuthenticationEmpty)
+            AlertManager.alert(forWhichPage: self, alertType: .userAuthenticationEmpty, handler: nil)
         }
     }
     
@@ -47,9 +53,10 @@ class RegisterViewController: UIViewController, UITextFieldDelegate
        // User Name
         UserAuthentication.userNameTFSetup(userNameTF: &userNameTF, forWhichPage: self)
         //Password
-        UserAuthentication.passwordTFSetup(passwordTF: &passwordTF, forWhichPage: self, isLoginPage: false)
+        UserAuthentication.passwordTFSetup(passwordTF: &passwordTF, forWhichPage: self)
         userNameTF.delegate = self
         passwordTF.delegate = self
+        
     }
     
     func isKeyPresentInUserDefaults(key: String) -> Bool
