@@ -31,3 +31,19 @@ It supposed to be used in Pokemon Dex Detail page to customize the Label by addi
 RAMAnimatedTabBarController
 It is used for Custimizing the Tab Bar Controller. I use it to add animations for the tab bar items. Once you tapped the tab bar items, you will see the animation of chosen. 
 
+---------------------------------------------------------------------------------
+5.26 Update
+1. Update all the SVProgressHUD animation, now the animation should show properly
+2. Weather Project:
+	- In the Search Page, add city verification. If city doesn't exit or city text field is empty, it should show user the alert.
+	- Adjust delegate method didChangeCity() and getWeather() method
+	- Update UI if Location can't be found
+	- Notice: if the location can't be found, Please follow the below options
+		1. Go to the system setting of your simulater
+		2. Clicked on Privacy
+		3. Go into Location Service
+		4. Make Sure Location Service is on
+		5. Go into TabBarTasks and make sure "Allow Location Access is not 'Never' "
+3. Adjust Logout Function. 
+4. PhotoLibrary Project:
+    - Add more animations, clicked refresh will also switch the animations

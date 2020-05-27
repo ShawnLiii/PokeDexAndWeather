@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 class SearchPageViewController: UIViewController, UITextFieldDelegate
 {
@@ -14,7 +15,7 @@ class SearchPageViewController: UIViewController, UITextFieldDelegate
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var cityTF: UITextField!
     
-    var currentCity = ""
+    var currentCity: String?
     var delegate: SelectCityDelegate?
     
     override func viewDidLoad()
@@ -26,21 +27,34 @@ class SearchPageViewController: UIViewController, UITextFieldDelegate
       
     @IBAction func searchBtnTapped(_ sender: UIButton)
     {
-        if let city = cityTF.text
+        if let city = cityTF.text, !city.isEmpty
         {
-            delegate?.didChangeCity(city: city)
+            let paras = ["q" : city, "appid" : AppConstants.NetworkAPI.appid]
+            Service.shared.handleAnyResponse(url: AppConstants.NetworkAPI.weatherAPI, parameter: paras)
+            { (json) in
+                
+                if JSON(json)["cod"].rawString() != "404"
+                {
+                    self.delegate?.didChangeCity(weatherJSON: JSON(json))
+                    self.navigationController?.popViewController(animated: true)
+                }
+                else
+                {
+                    AlertManager.alert(forWhichPage: self, alertType: .cityNameNotExist)
+                }
+                
+            }
         }
         else
         {
-            delegate?.didChangeCity(city: "Fort Collins")
+            AlertManager.alert(forWhichPage: self, alertType: .cityNameEmpty)
         }
         
-        navigationController?.popViewController(animated: true)
     }
   
     @IBAction func logoutBtnTapped(_ sender: UIBarButtonItem)
     {
-        UserAuthentication.logout(forWhichPage: self)
+        UserAuthentication.logout()
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool

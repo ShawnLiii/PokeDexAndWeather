@@ -35,7 +35,7 @@ class PokemonDetailViewController: UIViewController
     
     @IBAction func logoutBtnTapped(_ sender: UIBarButtonItem)
     {
-        UserAuthentication.logout(forWhichPage: self)
+        UserAuthentication.logout()
     }
     
     func setupUI()

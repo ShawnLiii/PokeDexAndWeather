@@ -17,6 +17,8 @@ class AlertManager
         case userAuthenticationEmpty = "User Name or Password is Empty"
         case userExist = "User Name Already Exist"
         case registerSuccess = "Register Successful!"
+        case cityNameNotExist = "The City Can't be Found"
+        case cityNameEmpty = "City Name Can't be Empty"
     }
     
     static func alert(forWhichPage viewController: UIViewController, alertType: AlertType)
@@ -37,6 +39,10 @@ class AlertManager
             message = AlertType.registerSuccess.rawValue
             title = "Great!"
             imageName = "panda"
+        case .cityNameNotExist:
+            message = AlertType.cityNameNotExist.rawValue
+        case .cityNameEmpty:
+            message = AlertType.cityNameEmpty.rawValue
         }
         
         let alterController = PMAlertController(title: title, description: message, image: UIImage(named: imageName), style: .alert)

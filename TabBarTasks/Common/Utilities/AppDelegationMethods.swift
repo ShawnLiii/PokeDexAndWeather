@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import SwiftyJSON
 
 protocol SelectCityDelegate
 {
-    func didChangeCity(city: String)
+    func didChangeCity(weatherJSON: JSON)
 }

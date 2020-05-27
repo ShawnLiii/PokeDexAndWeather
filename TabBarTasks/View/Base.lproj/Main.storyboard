@@ -36,10 +36,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16˚" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YeZ-lH-WIR">
-                                <rect key="frame" x="189" y="171" width="205" height="140"/>
+                                <rect key="frame" x="20" y="171" width="374" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="QOY-dJ-YQe"/>
-                                    <constraint firstAttribute="width" constant="205" id="xT0-12-smZ"/>
+                                    <constraint firstAttribute="width" constant="374" id="xT0-12-smZ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="100"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -110,7 +110,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="f0D-2M-7eT" customClass="GeminiCollectionView" customModule="Gemini">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" red="0.92851299047470093" green="0.68642210960388184" blue="0.65944510698318481" alpha="0.99957275390625" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oWQ-9R-c92">
                                     <size key="itemSize" width="350" height="308"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -144,7 +144,7 @@
                                 </cells>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.92728060483932495" green="0.6802031397819519" blue="0.65596050024032593" alpha="0.9991455078125" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="f0D-2M-7eT" firstAttribute="bottom" secondItem="xdj-Aq-7AD" secondAttribute="bottom" id="2Wd-zU-6Ht"/>
                             <constraint firstItem="f0D-2M-7eT" firstAttribute="leading" secondItem="xdj-Aq-7AD" secondAttribute="leading" id="BKa-TS-LPM"/>

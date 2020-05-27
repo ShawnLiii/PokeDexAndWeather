@@ -40,11 +40,13 @@ class UserAuthentication
         viewController.view.addSubview(passwordTF)
     }
     
-    static func logout(forWhichPage viewController: UIViewController)
+    static func logout()
     {
         UserDefaults.standard.set(false, forKey: AppConstants.UserInfo.loginStatusKey)
         
-        if let navCtrl = viewController.storyboard?.instantiateInitialViewController()
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        if let navCtrl = storyboard.instantiateInitialViewController()
         {
             let window = UIApplication.shared.windows.first
             window?.rootViewController = navCtrl

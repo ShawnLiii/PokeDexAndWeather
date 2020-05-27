@@ -30,7 +30,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate
     {
         if let username = userNameTF.text, let password = passwordTF.text, !username.isEmpty, !password.isEmpty
         {
-            if let passwordOfUser = UserDefaults.standard.value(forKey: username), passwordOfUser as! String == password
+            if let passwordOfUser = UserDefaults.standard.value(forKey: username), (passwordOfUser as! String) == password
             {
                 UserDefaults.standard.set(true, forKey: AppConstants.UserInfo.loginStatusKey)
                 

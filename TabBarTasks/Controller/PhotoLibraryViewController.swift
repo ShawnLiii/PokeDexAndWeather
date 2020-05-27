@@ -12,7 +12,7 @@ import SVProgressHUD
 
 class PhotoLibraryViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
 {
-
+    var animationID = 0
     var photos = [Photo]()
     
     @IBOutlet weak var collectionView: GeminiCollectionView!
@@ -37,11 +37,12 @@ class PhotoLibraryViewController: UIViewController, UICollectionViewDelegate, UI
     {
         SVProgressHUD.show()
         fetchDataSource()
+        setupAnimation()
     }
     
     @IBAction func logoutTapped(_ sender: UIBarButtonItem)
     {
-        UserAuthentication.logout(forWhichPage: self)
+        UserAuthentication.logout()
     }
     
     //MARK: - Fetch Data Source
@@ -54,7 +55,7 @@ class PhotoLibraryViewController: UIViewController, UICollectionViewDelegate, UI
                 let photoContainer = try JSONDecoder().decode(PhotoData.self, from: data)
                 self.photos = photoContainer.items
                 self.collectionView.reloadData()
-                SVProgressHUD.dismiss()
+                SVProgressHUD.dismiss(withDelay: 0.2)
             }
             catch
             {
@@ -66,10 +67,21 @@ class PhotoLibraryViewController: UIViewController, UICollectionViewDelegate, UI
     // Configure Animation
     func setupAnimation()
     {
-        collectionView.gemini
-        .rollRotationAnimation()
-        .degree(45)
-        .rollEffect(.rollUp)
+        switch animationID
+        {
+        case 0:
+            collectionView.gemini.rollRotationAnimation().degree(45).rollEffect(.rollUp)
+            animationID += 1
+        case 1:
+            collectionView.gemini.circleRotationAnimation().radius(450).rotateDirection(.clockwise).itemRotationEnabled(true)
+            animationID += 1
+        case 2:
+            collectionView.gemini.scaleAnimation().scale(0.75).scaleEffect(.scaleUp)
+            animationID += 1
+        default:
+            collectionView.gemini.cubeAnimation().cubeDegree(90)
+            animationID = 0
+        }
     }
     
     // MARK: - GeminiCollectionView Setting

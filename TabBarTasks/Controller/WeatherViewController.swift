@@ -27,17 +27,13 @@ class WeatherViewController: UIViewController, SelectCityDelegate
         super.viewDidLoad()
         SVProgressHUD.setContainerView(self.view)
         locationManager.delegate = self
+        locationManager.requestWhenInUseAuthorization()
         getUserlocation()
     }
-
-    override func viewDidAppear(_ animated: Bool)
-    {
-        locationManager.requestWhenInUseAuthorization()
-    }
-    
+  
     @IBAction func logoutBtnTapped(_ sender: UIBarButtonItem)
     {
-        UserAuthentication.logout(forWhichPage: self)
+        UserAuthentication.logout()
     }
     
     @IBAction func refreshBtnTapped(_ sender: UIButton)
@@ -55,10 +51,9 @@ class WeatherViewController: UIViewController, SelectCityDelegate
         }
     }
     
-    func didChangeCity(city: String)
+    func didChangeCity(weatherJSON: JSON)
     {
-        let paras = ["q" : city, "appid" : AppConstants.NetworkAPI.appid]
-        getWeather(para: paras)
+        getWeather(weatherJSON: weatherJSON)
     }
     
     func getWeather(para: [String:String])
@@ -68,8 +63,15 @@ class WeatherViewController: UIViewController, SelectCityDelegate
             let weather = JSON(json)
             self.createWeather(weatherJSON: weather)
             self.updateUI()
-            SVProgressHUD.dismiss()
+            SVProgressHUD.dismiss(withDelay: 0.2)
         }
+    }
+    
+    func getWeather(weatherJSON: JSON)
+    {
+        createWeather(weatherJSON: weatherJSON)
+        updateUI()
+        SVProgressHUD.dismiss(withDelay: 0.2)
     }
     
     func createWeather(weatherJSON: JSON)
@@ -112,7 +114,9 @@ extension WeatherViewController: CLLocationManagerDelegate
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error)
     {
-        print(error)
         cityLabel.text = "Fail to get Location"
+        tempLabel.text = "N/A"
+        weatherImage.image = UIImage(named: "tstorm1")
+        SVProgressHUD.dismiss(withDelay: 0.2)
     }
 }

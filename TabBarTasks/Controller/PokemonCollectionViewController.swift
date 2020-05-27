@@ -24,19 +24,9 @@ class PokemonCollectionViewController: UICollectionViewController
         setupUI()
     }
     
-    override func viewWillAppear(_ animated: Bool)
-    {
-        SVProgressHUD.show()
-    }
-    
-    override func viewDidAppear(_ animated: Bool)
-    {
-        SVProgressHUD.dismiss()
-    }
-    
     @IBAction func logoutBtnTapped(_ sender: UIBarButtonItem)
     {
-        UserAuthentication.logout(forWhichPage: self)
+        UserAuthentication.logout()
     }
     
     func setupUI()
@@ -44,6 +34,7 @@ class PokemonCollectionViewController: UICollectionViewController
         SVProgressHUD.setContainerView(self.view)
         let slantedSayout = CollectionViewSlantedLayout()
         collectionView.collectionViewLayout = slantedSayout
+        SVProgressHUD.show()
         fetchDataSource()
     }
     
@@ -114,7 +105,7 @@ class PokemonCollectionViewController: UICollectionViewController
         let rotateAnimation = AnimationType.rotate(angle: CGFloat.pi/6)
         UIView.animate(views: [cell], animations: [zoomAnimation, rotateAnimation], duration: 1.5)
         
-        SVProgressHUD.dismiss()
+        SVProgressHUD.dismiss(withDelay: 0.2)
         return cell
     }
 
