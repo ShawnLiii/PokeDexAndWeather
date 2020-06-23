@@ -31,9 +31,11 @@ class PokemonCollectionViewController: UICollectionViewController
     
     func setupUI()
     {
-        SVProgressHUD.setContainerView(self.view)
         let slantedSayout = CollectionViewSlantedLayout()
+        
         collectionView.collectionViewLayout = slantedSayout
+        
+        SVProgressHUD.setContainerView(self.view)
         SVProgressHUD.show()
         fetchDataSource()
     }
@@ -56,6 +58,7 @@ class PokemonCollectionViewController: UICollectionViewController
         {
             let pokemon = Pokemon()
             let pokeJSON = item.1
+            
             pokemon.name = pokeJSON["name"].stringValue
             pokemon.id = pokeJSON["id"].intValue
             pokemon.description = pokeJSON["description"].stringValue
@@ -71,8 +74,11 @@ class PokemonCollectionViewController: UICollectionViewController
     {
         let vc = segue.destination as! PokemonDetailViewController
         let cell = sender as! PokemonCollectionViewCell
+        
         index = collectionView.indexPath(for: cell)!.row
+        
         let pokemon = pokemons[index]
+        
         vc.pokeimage = cell.pokeImage.image
         vc.detail = pokemon.description
         vc.height = pokemon.height
@@ -103,6 +109,7 @@ class PokemonCollectionViewController: UICollectionViewController
         //Animation
         let zoomAnimation = AnimationType.zoom(scale: 0.2)
         let rotateAnimation = AnimationType.rotate(angle: CGFloat.pi/6)
+        
         UIView.animate(views: [cell], animations: [zoomAnimation, rotateAnimation], duration: 1.5)
         
         SVProgressHUD.dismiss(withDelay: 0.2)

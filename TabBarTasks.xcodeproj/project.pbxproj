@@ -123,6 +123,7 @@
 				3D3ECCF424798AA4003AE1AD /* Common */,
 				3D3ECCF824798B33003AE1AD /* Model */,
 				3D3ECCF624798ABF003AE1AD /* View */,
+				3DCBFB39247F5B800096D3F8 /* ViewModel */,
 				3D3ECCF524798AAC003AE1AD /* Controller */,
 				3D7690DA247C638A0067A6B0 /* Service */,
 				3D3ECCF724798ACD003AE1AD /* SupportFiles */,
@@ -224,6 +225,13 @@
 				3D959B5A247B21AA00D152EF /* PhotoLibraryViewController.swift */,
 			);
 			name = PhotoLibrary;
+			sourceTree = "<group>";
+		};
+		3DCBFB39247F5B800096D3F8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		3DE162E4247C32FC00560C64 /* RootController */ = {

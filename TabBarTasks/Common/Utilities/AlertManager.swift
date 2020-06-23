@@ -60,6 +60,5 @@ class AlertManager
         alterController.addAction(alertAction)
         viewController.present(alterController, animated: true, completion: nil)
         
-        
     }
 }

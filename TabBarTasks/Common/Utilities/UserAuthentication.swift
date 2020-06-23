@@ -32,7 +32,6 @@ class UserAuthentication
         passwordTF.keyboardAppearance = .dark
         passwordTF.isSecureTextEntry = true
         passwordTF.showPasswordApperanceButton = true
-    
         viewController.view.addSubview(passwordTF)
     }
     

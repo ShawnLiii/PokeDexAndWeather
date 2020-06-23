@@ -3,4 +3,102 @@
    uuid = "9455B4DC-6E1A-45A7-8412-03EB2CD34849"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BE43FDF-82A7-419D-B88E-EDBDB49446F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TabBarTasks/Controller/SearchPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "searchBtnTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2BDD710-8768-49E4-B5C5-696E7C70D272"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TabBarTasks/Controller/SearchPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "searchBtnTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AA9316A-7252-43EE-AB15-262A9B71E794"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TabBarTasks/Service/Service.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "handleAnyResponse(url:parameter:handler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5AA9316A-7252-43EE-AB15-262A9B71E794 - 2f83152377905f12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarTasks.Service.handleAnyResponse(url: Alamofire.URLConvertible, parameter: Swift.Dictionary&lt;Swift.String, Any&gt;, handler: (Any) -&gt; ()) -&gt; ()"
+                  moduleName = "TabBarTasks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shawnli/Desktop/IOS%20Development/Code/Shawn%20Li%20Project/TabBarTasks_MVVM/TabBarTasks/Service/Service.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "517">
+               </Location>
+               <Location
+                  uuid = "5AA9316A-7252-43EE-AB15-262A9B71E794 - b0e97c91b0341d20"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in TabBarTasks.Service.handleAnyResponse(url: Alamofire.URLConvertible, parameter: Swift.Dictionary&lt;Swift.String, Any&gt;, handler: (Any) -&gt; ()) -&gt; ()"
+                  moduleName = "TabBarTasks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shawnli/Desktop/IOS%20Development/Code/Shawn%20Li%20Project/TabBarTasks_MVVM/TabBarTasks/Service/Service.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "107">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6B3B714-0A1F-4D2D-89FF-91DB06E62C9C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TabBarTasks/Service/Service.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "handleAnyResponse(url:parameter:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

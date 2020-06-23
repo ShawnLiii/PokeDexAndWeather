@@ -35,6 +35,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate
             {
                 UserDefaults.standard.set(password, forKey: username)
                 delegate?.fillUserName(username: username)
+                
                 AlertManager.alert(forWhichPage: self, alertType: .registerSuccess)
                 {
                     self.navigationController?.popToRootViewController(animated: true)

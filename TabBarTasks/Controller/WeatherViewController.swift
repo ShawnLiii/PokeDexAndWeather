@@ -117,7 +117,7 @@ extension WeatherViewController: CLLocationManagerDelegate
     {
         cityLabel.text = "Fail to get Location"
         tempLabel.text = "N/A"
-        weatherImage.image = UIImage(named: "tstorm1")
+        weatherImage.image = nil
         SVProgressHUD.dismiss(withDelay: 0.2)
     }
 }
