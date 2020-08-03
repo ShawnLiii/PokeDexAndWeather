@@ -49,3 +49,6 @@ It is used for Custimizing the Tab Bar Controller. I use it to add animations fo
     - Add more animations, clicked refresh will also switch the animations
 5.27 Update
 1. If user register sucessfully, will show register sucessfully alert and jump back to the Login page and bring back the user name.
+
+8.2 Update
+

@@ -44,30 +44,35 @@ class PokemonCollectionViewController: UICollectionViewController
     {
         Service.shared.handleAnyResponse(url: AppConstants.NetworkAPI.pokemonAPI)
         { (json) in
-            var pokemonJSON = JSON(json)
-            // Remove first nil object
-            pokemonJSON.arrayObject?.remove(at: 0)
+            let pokemonJSON = JSON(json)
             self.createPokemonContainer(json: pokemonJSON)
+            
             self.collectionView.reloadData()
         }
     }
     
     func createPokemonContainer(json: JSON)
     {
+
         for item in json
         {
             let pokemon = Pokemon()
             let pokeJSON = item.1
+
+            if let imageUrl = pokeJSON["imageUrl"].url
+            {
+                pokemon.name = pokeJSON["name"].stringValue
+                pokemon.id = pokeJSON["id"].intValue
+                pokemon.description = pokeJSON["description"].stringValue
+                pokemon.type = pokeJSON["type"].stringValue
+                pokemon.imageUrl = imageUrl
+                pokemon.height = pokeJSON["height"].intValue
+                pokemon.weight = pokeJSON["weight"].intValue
+                pokemons.append(pokemon)
+            }
             
-            pokemon.name = pokeJSON["name"].stringValue
-            pokemon.id = pokeJSON["id"].intValue
-            pokemon.description = pokeJSON["description"].stringValue
-            pokemon.type = pokeJSON["type"].stringValue
-            pokemon.imageUrl = pokeJSON["imageUrl"].url!
-            pokemon.height = pokeJSON["height"].intValue
-            pokemon.weight = pokeJSON["weight"].intValue
-            pokemons.append(pokemon)
         }
+        pokemons = pokemons.sorted(by: {$0.id < $1.id })
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)

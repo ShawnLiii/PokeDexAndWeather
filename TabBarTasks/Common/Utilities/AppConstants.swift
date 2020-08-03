@@ -12,7 +12,7 @@ struct AppConstants
 {
     struct NetworkAPI
     {
-        static let appid = "e72ca729af228beabd5d20e3b7749713"
+        static let appid = "cdc67b29c6b83bab0fb228af5863d7d5"
         static let weatherAPI = "https://api.openweathermap.org/data/2.5/weather"
         static let pokemonAPI = "https://pokedex-bb36f.firebaseio.com/pokemon.json"
         static let photoAPI = "https://www.flickr.com/services/feeds/photos_public.gne?format=json&nojsoncallback=1"

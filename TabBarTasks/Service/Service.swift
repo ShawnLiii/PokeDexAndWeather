@@ -24,6 +24,7 @@ class Service
                 handler(data)
             }
         }
+        
     }
     
     func handleAnyResponse(url: URLConvertible, handler: @escaping (Any) -> ())
@@ -50,3 +51,4 @@ class Service
     }
     
 }
+

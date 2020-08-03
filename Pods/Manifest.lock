@@ -1,10 +1,9 @@
 PODS:
-  - Alamofire (5.1.0)
+  - Alamofire (5.2.2)
   - CollectionViewSlantedLayout (3.1.1)
   - Gemini (1.4.0)
   - LGButton (1.1.6)
   - LoginTextField (1.3.0)
-  - LTMorphingLabel (0.7.0)
   - PMAlertController (4.0.0)
   - RAMAnimatedTabBarController (5.1.0)
   - SVProgressHUD (2.2.5)
@@ -17,7 +16,6 @@ DEPENDENCIES:
   - Gemini
   - LGButton
   - LoginTextField
-  - LTMorphingLabel
   - PMAlertController
   - RAMAnimatedTabBarController
   - SVProgressHUD
@@ -25,32 +23,31 @@ DEPENDENCIES:
   - ViewAnimator
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Alamofire
+  https://github.com/CocoaPods/Specs.git:
     - CollectionViewSlantedLayout
     - Gemini
     - LGButton
     - LoginTextField
-    - LTMorphingLabel
     - PMAlertController
     - RAMAnimatedTabBarController
     - SVProgressHUD
     - SwiftyJSON
     - ViewAnimator
+  trunk:
+    - Alamofire
 
 SPEC CHECKSUMS:
-  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
   CollectionViewSlantedLayout: 24397455acd2461960bc45d394e0ef99c17d03ce
   Gemini: 4ad915cca8805577fe3021e02feeca2b77dcdbfc
   LGButton: 9f0a7f9d3030e3f504108342f6b66d64a429371b
   LoginTextField: 141835aea13883052a6e4def2e049e7d081808be
-  LTMorphingLabel: 22147fb1ec2b0306537ccc348b36ea8617179b03
   PMAlertController: 5fad2da8b9eb687134ed50c3462fed12c3afe976
   RAMAnimatedTabBarController: b5c821298071fded801532216ad8a24394f89859
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   ViewAnimator: 5af1c6f3b310f012bf081259c43717aa54fbae73
 
-PODFILE CHECKSUM: 4a1c5c00e677b5f5a97f46278f404b1715f50bdf
+PODFILE CHECKSUM: a5ef5f76e6bc8bee3061c16565838b2547d1517e
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.9.1
