@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import LTMorphingLabel
 
 class PokemonDetailViewController: UIViewController
 {
@@ -20,11 +19,11 @@ class PokemonDetailViewController: UIViewController
     var weight: Int?
     
     @IBOutlet weak var pokemonIV: UIImageView!
-    @IBOutlet weak var pokemonIDLab: LTMorphingLabel!
-    @IBOutlet weak var pokemonNameLab: LTMorphingLabel!
-    @IBOutlet weak var pokemonTypeLab: LTMorphingLabel!
-    @IBOutlet weak var pokemonHLab: LTMorphingLabel!
-    @IBOutlet weak var pokemonWLab: LTMorphingLabel!
+    @IBOutlet weak var pokemonIDLab: UILabel!
+    @IBOutlet weak var pokemonNameLab: UILabel!
+    @IBOutlet weak var pokemonTypeLab: UILabel!
+    @IBOutlet weak var pokemonHLab: UILabel!
+    @IBOutlet weak var pokemonWLab: UILabel!
     @IBOutlet weak var pokemonDetailTV: UITextView!
     
     override func viewDidLoad()
@@ -64,25 +63,6 @@ class PokemonDetailViewController: UIViewController
         pokemonTypeLab.text = type
         pokemonNameLab.text = name
         pokemonDetailTV.text = detail
-        
-        //Interact with label
-
-//            self.pokemonIDLab.pause()
-//            self.pokemonIDLab.updateProgress(progress: 0.3)
-//
-//            self.pokemonHLab.pause()
-//            self.pokemonHLab.updateProgress(progress: 0.3)
-//
-//            self.pokemonNameLab.pause()
-//            self.pokemonNameLab.updateProgress(progress: 0.3)
-//
-//            self.pokemonWLab.pause()
-//            self.pokemonWLab.updateProgress(progress: 0.3)
-//
-//            self.pokemonTypeLab.pause()
-//            self.pokemonTypeLab.updateProgress(progress: 0.3)
-
-        
         
     }
 }

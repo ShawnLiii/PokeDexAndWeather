@@ -7,14 +7,13 @@ target 'TabBarTasks' do
 
   # Pods for TabBarTasks
 pod 'SVProgressHUD'
-pod 'Alamofire'
 pod 'SwiftyJSON'
+pod 'Alamofire'
 pod 'Gemini'
 pod 'LoginTextField'
 pod 'LGButton'
 pod 'PMAlertController'
 pod 'CollectionViewSlantedLayout'
 pod 'ViewAnimator'
-pod 'LTMorphingLabel'
 pod 'RAMAnimatedTabBarController'
 end
