@@ -111,7 +111,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="f0D-2M-7eT" customClass="GeminiCollectionView" customModule="Gemini">
-                                <rect key="frame" x="0.0" y="140" width="414" height="673"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" red="0.92851299047470093" green="0.68642210960388184" blue="0.65944510698318481" alpha="0.99957275390625" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oWQ-9R-c92">
                                     <size key="itemSize" width="350" height="308"/>
@@ -409,10 +409,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u6o-uV-KDs">
-                                <rect key="frame" x="-20" y="48" width="456" height="805"/>
+                                <rect key="frame" x="-20" y="100" width="456" height="753"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R0h-Qt-Z8h" userLabel="Content View">
-                                        <rect key="frame" x="20" y="60" width="416" height="768"/>
+                                        <rect key="frame" x="20" y="60" width="416" height="713"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="151" translatesAutoresizingMaskIntoConstraints="NO" id="TJT-So-UBF">
                                                 <rect key="frame" x="21" y="5" width="374" height="241"/>
@@ -421,7 +421,7 @@
                                                     <constraint firstAttribute="width" constant="374" id="psS-Bz-G8Y"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fV0-TM-GAo">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" text="No." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fV0-TM-GAo">
                                                 <rect key="frame" x="20" y="276" width="38.5" height="28"/>
                                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="22"/>
                                                 <nil key="textColor"/>
@@ -433,7 +433,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rah-HQ-bTu">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rah-HQ-bTu">
                                                 <rect key="frame" x="20" y="314" width="74" height="28"/>
                                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="22"/>
                                                 <nil key="textColor"/>
@@ -445,7 +445,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmr-OM-zIT">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" text="Type:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmr-OM-zIT">
                                                 <rect key="frame" x="20" y="352" width="64" height="28"/>
                                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="22"/>
                                                 <nil key="textColor"/>
@@ -457,7 +457,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Height:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HW4-e7-Maw">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Height:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HW4-e7-Maw">
                                                 <rect key="frame" x="20" y="390" width="82" height="28"/>
                                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="22"/>
                                                 <nil key="textColor"/>
@@ -491,8 +491,11 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Mew" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fUk-ho-w4E">
-                                                <rect key="frame" x="20" y="499" width="376" height="259"/>
+                                                <rect key="frame" x="20" y="499" width="376" height="204"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="204" id="dSM-Ly-Qtf"/>
+                                                </constraints>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -527,7 +530,6 @@
                                             <constraint firstItem="TJT-So-UBF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="R0h-Qt-Z8h" secondAttribute="leading" constant="21" id="c6m-AE-PzB"/>
                                             <constraint firstAttribute="trailing" secondItem="pX2-QO-TMn" secondAttribute="trailing" constant="20" id="da5-eJ-dgO"/>
                                             <constraint firstItem="15q-Ha-1Qa" firstAttribute="leading" secondItem="R0h-Qt-Z8h" secondAttribute="leading" constant="20" id="eaQ-Yw-H14"/>
-                                            <constraint firstAttribute="height" constant="713" id="fCV-qx-aCc"/>
                                             <constraint firstItem="15q-Ha-1Qa" firstAttribute="top" secondItem="sp4-ol-LgY" secondAttribute="bottom" constant="10" id="fbl-n9-HVf"/>
                                             <constraint firstItem="fUk-ho-w4E" firstAttribute="leading" secondItem="R0h-Qt-Z8h" secondAttribute="leading" constant="20" id="h8x-jK-QjQ"/>
                                             <constraint firstItem="HW4-e7-Maw" firstAttribute="top" secondItem="bmr-OM-zIT" secondAttribute="bottom" constant="10" id="hQa-0r-bKZ"/>
@@ -559,7 +561,6 @@
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
                             <constraint firstAttribute="bottomMargin" secondItem="u6o-uV-KDs" secondAttribute="bottom" constant="-40" id="1BH-Ks-9br"/>
-                            <constraint firstItem="R0h-Qt-Z8h" firstAttribute="width" secondItem="839-s8-pn2" secondAttribute="width" multiplier="1.00483" id="cbH-Tm-8qd"/>
                             <constraint firstItem="u6o-uV-KDs" firstAttribute="leading" secondItem="ylA-RX-fSo" secondAttribute="leadingMargin" constant="-40" id="jYN-bp-C2b"/>
                             <constraint firstItem="R0h-Qt-Z8h" firstAttribute="height" relation="greaterThanOrEqual" secondItem="839-s8-pn2" secondAttribute="height" multiplier="1.05944" id="lFX-GY-lTC"/>
                             <constraint firstItem="u6o-uV-KDs" firstAttribute="top" secondItem="ylA-RX-fSo" secondAttribute="topMargin" constant="-40" id="pkq-Rp-o17"/>
@@ -599,11 +600,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sQy-JS-ZVF" customClass="LGButton" customModule="LGButton">
-                                <rect key="frame" x="144" y="544" width="126" height="57"/>
+                                <rect key="frame" x="131" y="655" width="152" height="57"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="57" id="aQd-3z-D7h"/>
-                                    <constraint firstAttribute="width" constant="126" id="bhZ-xa-6cx"/>
+                                    <constraint firstAttribute="height" constant="57" id="PlQ-iJ-c6P"/>
+                                    <constraint firstAttribute="width" constant="152" id="dPD-GV-dNc"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="titleString" value="Login"/>
@@ -643,8 +644,8 @@
                         <viewLayoutGuide key="safeArea" id="Jfb-dY-Kmh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="sQy-JS-ZVF" firstAttribute="centerX" secondItem="ctI-zz-Qo6" secondAttribute="centerX" id="RnQ-GI-bgO"/>
-                            <constraint firstItem="Jfb-dY-Kmh" firstAttribute="bottom" secondItem="sQy-JS-ZVF" secondAttribute="bottom" constant="261" id="ZlE-YY-I6d"/>
+                            <constraint firstItem="Jfb-dY-Kmh" firstAttribute="bottom" secondItem="sQy-JS-ZVF" secondAttribute="bottom" constant="150" id="7aY-uM-ywZ"/>
+                            <constraint firstItem="sQy-JS-ZVF" firstAttribute="centerX" secondItem="ctI-zz-Qo6" secondAttribute="centerX" id="VqE-ys-sjq"/>
                             <constraint firstAttribute="bottom" secondItem="Vlg-nZ-jje" secondAttribute="bottom" id="fUN-H8-Vft"/>
                             <constraint firstItem="Vlg-nZ-jje" firstAttribute="leading" secondItem="Jfb-dY-Kmh" secondAttribute="leading" id="iz5-91-9wv"/>
                             <constraint firstItem="Vlg-nZ-jje" firstAttribute="trailing" secondItem="Jfb-dY-Kmh" secondAttribute="trailing" id="j0K-oj-HlQ"/>
@@ -676,7 +677,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N5s-OL-4Sa" customClass="LGButton" customModule="LGButton">
-                                <rect key="frame" x="131" y="541" width="152" height="57"/>
+                                <rect key="frame" x="131" y="655" width="152" height="57"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="57" id="03c-yl-U4N"/>
@@ -722,7 +723,7 @@
                         <constraints>
                             <constraint firstItem="Y0o-jC-Iz5" firstAttribute="top" secondItem="iA6-kz-4qI" secondAttribute="top" id="0vY-fX-CH0"/>
                             <constraint firstItem="Y0o-jC-Iz5" firstAttribute="trailing" secondItem="kFz-Id-dAv" secondAttribute="trailing" id="4BM-LK-0B9"/>
-                            <constraint firstItem="kFz-Id-dAv" firstAttribute="bottom" secondItem="N5s-OL-4Sa" secondAttribute="bottom" constant="264" id="K2V-vi-cgT"/>
+                            <constraint firstItem="kFz-Id-dAv" firstAttribute="bottom" secondItem="N5s-OL-4Sa" secondAttribute="bottom" constant="150" id="K2V-vi-cgT"/>
                             <constraint firstItem="Y0o-jC-Iz5" firstAttribute="leading" secondItem="kFz-Id-dAv" secondAttribute="leading" id="Qhh-98-thD"/>
                             <constraint firstAttribute="bottom" secondItem="Y0o-jC-Iz5" secondAttribute="bottom" id="n8E-KU-L5u"/>
                             <constraint firstItem="N5s-OL-4Sa" firstAttribute="centerX" secondItem="iA6-kz-4qI" secondAttribute="centerX" id="rKD-mV-sZT"/>
@@ -804,7 +805,6 @@
         <!--View Controller-->
         <scene sceneID="LEE-kA-6Jl">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="78c-aC-GHF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="5VS-oh-em8" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cEg-JA-hMz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -813,6 +813,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="78c-aC-GHF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3077" y="909"/>
         </scene>
