@@ -22,7 +22,7 @@ struct AppConstants
     {
         static let widthOfTF: Int = Int(UIScreen.main.bounds.width - 20)
         static let heightOfTF: Int = 50
-        static let userNamePH = "User Name."
+        static let userNamePH = "User Name"
         static let passwordPH = "Password"
     }
     
