@@ -3,14 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		008B2A13D8D7CA35B9BD70676D147BAD /* themify.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F4C29F884784A6C6839C01AE58AEC7B /* themify.ttf */; };
 		00B8024BA3497BB50E9DB3499D0DBBA0 /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347433FDE79826DC40C8CDE5511541A /* Collection+Extensions.swift */; };
 		013BAC24F7AC722E59517CB110A9E685 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCBC99A621C95E827EBF2E9580AC6F7 /* HTTPMethod.swift */; };
-		0306F956453DA194C22B1C407C2EF3BF /* Pods-TabBarTasks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1AD06AA08FC3CDF45D404B6553F751 /* Pods-TabBarTasks-dummy.m */; };
 		05FB9FD6293F7BBEF23E35863EFCF28D /* EasingAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A663624F3114F2D3F293D833C536459 /* EasingAnimatable.swift */; };
 		06117D18554D3BD2C4D581DD3ED76AD5 /* FontOpenic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5908D84D0208313F56193D9F570346 /* FontOpenic.swift */; };
 		0A1849775CF90D514963187D3A771CF8 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC49E1335D978D5668171CEA91A0C77F /* Combine.swift */; };
@@ -56,9 +55,11 @@
 		52EBEB9C51467A8F3A82D067CE59B642 /* PMAlertController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2A143817C16DD3BA7A5190287A2A8471 /* PMAlertController.xib */; };
 		559EFA708395041AF9D9F20CB68373DB /* FontMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE6BC7B30C2A9A4BF1D89C28AD8F609 /* FontMap.swift */; };
 		58CDDC315D072611DC4E0E8D7B2B399B /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A99DEDF500716D42ACCCD0D3D27BE /* Animation.swift */; };
+		5AFEE99978B10BC8F57992CDF59976D5 /* Pods-PokeDexAndWeather-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2E8513F291BB49391AF9A738D73296 /* Pods-PokeDexAndWeather-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C849FBED09095F3172F21102B529FE2 /* RAMAnimatedTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A4F71D73ED913A064FF4AF4A547B33 /* RAMAnimatedTabBarController-dummy.m */; };
 		5DBDF38890137B49DC6EE62AF0DE44C5 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFB257510F4E689D0C458AFED593058 /* RAMAnimatedTabBarController.swift */; };
 		5DD436522AA643D435BBB56532398C5C /* LGButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CCC4ACFAB2E865AF93ED71097F2530 /* LGButton.xib */; };
+		5EB431CA8510E759F8C229AE49439BDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812B41176FB1B2260F5A0BFFB535AF58 /* Foundation.framework */; };
 		63627F5031F565E57FFD004382135EF0 /* RAMAnimatedTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8C8FEBD295CC45E0FA7FFC69D2109F7 /* RAMAnimatedTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		641F419F2882EA98CEFE9E8CC909AFC3 /* CollectionViewSlantedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D432787DD3D35EC7975B75B9F484A5 /* CollectionViewSlantedLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64207739074BD994E63F29D617C48DD8 /* CollectionViewSlantedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6E6AF0EE4BE2305CE22BE4F2747914 /* CollectionViewSlantedLayout.swift */; };
@@ -90,7 +91,6 @@
 		9083623D9FE447DDAC23F3D9CEE8BC10 /* RAMAnimatedTabBarController+BottomLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935D50805065DCF6A473784889BDB7CB /* RAMAnimatedTabBarController+BottomLine.swift */; };
 		911448B2EDA2FF880108F77642797A88 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF0A5C626A3094B94019BA4F8D7EE8 /* ResponseSerialization.swift */; };
 		91B837CE0DCD8EDB300FCDFFA1279162 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3BF40E0213870EC80C2CA411BCB40 /* HTTPHeaders.swift */; };
-		9439CE76C178EF59801CC8B349D8DFAB /* Pods-TabBarTasks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B02BEC3B9FC5AE75923CEE35287C166E /* Pods-TabBarTasks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 15009589B8B8EEBA3FE6AA65ECC18EEE /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97AD6F24F3B06BD613C6208F2184E74A /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C7A24B9F34EA8AF55D1CB0818952D74 /* MaterialIcons-Regular.ttf */; };
 		99456829035D2883017E8EBCDB82C231 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC0490EEB0D2B74AD97C975EF0ABD0D /* QuartzCore.framework */; };
@@ -107,7 +107,6 @@
 		A2AAC50C345806EA0D59A8EE90231AF1 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2EBE09ADE9EAFBF427328D412058C7 /* UIViewExtension.swift */; };
 		A34A98DD62B110BD2DFAD832FE42DC45 /* SwiftIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11E85C5E55C76F79CBDC0CACEE3565F /* SwiftIconLabel.swift */; };
 		A738C2A39C0150BBA7EA5EC19B95F03E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 991EAD55D9F8556A9C9FF728E8BC0723 /* CFNetwork.framework */; };
-		A77B0A7D5FD7AAFC0C14FE0FA237F295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812B41176FB1B2260F5A0BFFB535AF58 /* Foundation.framework */; };
 		ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD06B3A53E11EE38EDEB46C04C77C31 /* CachedResponseHandler.swift */; };
 		AFD985A8844D6713B3287F52AB39042C /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436ABB37AFFE271E2EDAAB5B7C1744A0 /* RAMFrameItemAnimation.swift */; };
 		B5A10580A561DCE1A2233E35EC0B6F96 /* GeminiCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2E4E86E1D8CAF275897CE8578FD336 /* GeminiCollectionView.swift */; };
@@ -115,6 +114,7 @@
 		B5ECEA1D55A08F82E73076E12B33B6E4 /* PMAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0908C76C98A5464236C17DD51EE3F /* PMAlertAction.swift */; };
 		B70284140C6BC6FCDD865022BC5619DA /* PMAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC389476CB9468C17FBCE2A4338D9A41 /* PMAlertController.swift */; };
 		B8359A965A3207FD3382506AAD3364E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812B41176FB1B2260F5A0BFFB535AF58 /* Foundation.framework */; };
+		BD4BE9849EAF0E386E57EDC6B885C5E4 /* Pods-PokeDexAndWeather-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F29A94ED306CF70A47C3FF3F5D6021 /* Pods-PokeDexAndWeather-dummy.m */; };
 		BD6DCC1280FBF8802E8256E27E72608D /* ViewAnimatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B233F58CD1EBFB43DD3A0D1A41730283 /* ViewAnimatorConfig.swift */; };
 		BE006B8B4A1F710B1AFA464ACB81D95B /* CollectionViewSlantedLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F666088A8A1BC737AA49CB0DE6747 /* CollectionViewSlantedLayoutAttributes.swift */; };
 		BFB6309660473CE20E1F98165D2190D2 /* LGButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8814E39BFDDF2E138EF39B97BC59AF9C /* LGButton-dummy.m */; };
@@ -160,68 +160,75 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		007D6EC5B9096A3B29F0B0E069826ECC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F8932EBA373851873AC7A18A17614F86;
-			remoteInfo = LoginTextField;
-		};
-		29ACF93FF09412DC9E76D5FBDBD20C91 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 91BFC2827E7E6E2B51AB2CFF58AC6317;
-			remoteInfo = ViewAnimator;
-		};
-		55F96623B002F438F81B918198CA1656 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FD999FE212F29E29DEEA0A85E1DC4D4E;
-			remoteInfo = LGButton;
-		};
-		6D266C9550625E62A46B07A87B1693EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
-			remoteInfo = SwiftyJSON;
-		};
-		9FAE995851102D4213DF08D6A20E072F /* PBXContainerItemProxy */ = {
+		0585A49E6CE6976B655EB9FD0D2412D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AF447278DD2A27045784F5DA5241502E;
 			remoteInfo = PMAlertController;
 		};
-		A71AB42FC9A3CE470A9A3327DA061B0B /* PBXContainerItemProxy */ = {
+		18FE24A24345960853B83C5B72A578E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DED4DEF356A163E50925101C3C7C0FB9;
 			remoteInfo = RAMAnimatedTabBarController;
 		};
-		AB4DEE78176A2CBDB3EBE11771C67D03 /* PBXContainerItemProxy */ = {
+		1C208F64338BEB0EEE3452F501A605F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A6AC3B95F2D31FE0816D1936AFDFC4F5;
-			remoteInfo = Gemini;
+			remoteGlobalIDString = FA7271849F210A81E46E26CACBE320CA;
+			remoteInfo = CollectionViewSlantedLayout;
 		};
-		DC955DEBC25EC9842431510E5AC95B5B /* PBXContainerItemProxy */ = {
+		1E0E41195AD82175C56032A362790B5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8932EBA373851873AC7A18A17614F86;
+			remoteInfo = LoginTextField;
+		};
+		1FA06DBFE1EE426BE9D2C270A76634C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		741E78C6E122C66F64A741803D3A1CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		7D6F8084B0B6ECD6B96640C10EB1BA9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91BFC2827E7E6E2B51AB2CFF58AC6317;
+			remoteInfo = ViewAnimator;
+		};
+		88DAB5FDC326DB059DF565E4F29AC7C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		E41F1039B636612C46CA49A089785EF5 /* PBXContainerItemProxy */ = {
+		B8D7DC64E880C8AD773AB89239FACAF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FA7271849F210A81E46E26CACBE320CA;
-			remoteInfo = CollectionViewSlantedLayout;
+			remoteGlobalIDString = FD999FE212F29E29DEEA0A85E1DC4D4E;
+			remoteInfo = LGButton;
+		};
+		DA30A1E9E440A1A7874848EB60612E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6AC3B95F2D31FE0816D1936AFDFC4F5;
+			remoteInfo = Gemini;
 		};
 		EDD12409CDAAC2C2B2B4D067B4037740 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -230,28 +237,23 @@
 			remoteGlobalIDString = E587873091CEC554E4965B6FC547D2FD;
 			remoteInfo = "PMAlertController-PMAlertController";
 		};
-		F7580B90DEB47405D81E0BA3D4346560 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
-			remoteInfo = SVProgressHUD;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		006E61274F32526DC8AFB10D36CDB71F /* LoginTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginTextField.release.xcconfig; sourceTree = "<group>"; };
 		05ABE855E0896A105CD7B1E9E8AFFABF /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
 		05EA5710698578B3FD5673CAE20B391B /* LoginTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F29A94ED306CF70A47C3FF3F5D6021 /* Pods-PokeDexAndWeather-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PokeDexAndWeather-dummy.m"; sourceTree = "<group>"; };
 		095FE8E7261835E4FC1D47AC8576DEF4 /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = octicons.ttf; path = LGButton/Resources/octicons.ttf; sourceTree = "<group>"; };
 		0BCACFB93E82494691EDC64AC5282B6F /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = LGButton/Classes/SwiftIconFont/FontAwesome.swift; sourceTree = "<group>"; };
 		0BDABC1191D8E3F9EE587058C4712BDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		0C2491654824B9635D8D670FFA4136FF /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		0EB78F7097B85B68248CE34D6510ED01 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
-		0F867EFA1A50D044BEDE78A928A87A1E /* Pods-TabBarTasks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabBarTasks.debug.xcconfig"; sourceTree = "<group>"; };
+		0FD16345A2DFC4C01D7FA109061C8613 /* Pods_PokeDexAndWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeDexAndWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1027EAE3EB7D8F24707EB45D88966CD9 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
 		106A911B3323504B43D1C82AF9142AA9 /* GeminiCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiCell.swift; path = Gemini/GeminiCell.swift; sourceTree = "<group>"; };
 		11520A7005C93ECA25E53F087BA5C344 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		121B022F3BA8C1EA3F469D29E5E6BC71 /* Pods-PokeDexAndWeather-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokeDexAndWeather-acknowledgements.plist"; sourceTree = "<group>"; };
 		146887789A0BD7E5E260269A7F5E0B77 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
 		14FC7CA2CA565423747AEDFE12AF8A85 /* CollectionViewSlantedLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CollectionViewSlantedLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15009589B8B8EEBA3FE6AA65ECC18EEE /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 		1F30AFE0709B012E4750FCB57AA1E326 /* CollectionViewSlantedLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollectionViewSlantedLayout-umbrella.h"; sourceTree = "<group>"; };
 		212D3322D57A43AF59586B72B3872AE2 /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMRotationAnimation.swift; path = RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift; sourceTree = "<group>"; };
 		213965FBE059BEC380AD91320574933E /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		22983E12185645CBB3D47740F9713622 /* Pods-PokeDexAndWeather.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PokeDexAndWeather.modulemap"; sourceTree = "<group>"; };
 		231C8023013CFD97FA5BB1E6EB05BFAB /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		238C15D2F6F197F21548DCD09C0B66A9 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		23C3BF40E0213870EC80C2CA411BCB40 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
@@ -273,6 +276,7 @@
 		27D0BBB50B865CAFA430F73F7DAA26FD /* LoginTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginTextField-prefix.pch"; sourceTree = "<group>"; };
 		2A143817C16DD3BA7A5190287A2A8471 /* PMAlertController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PMAlertController.xib; path = Library/PMAlertController.xib; sourceTree = "<group>"; };
 		2A4CAE143E2CF228631B05D6C4F3B4EE /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		2A612FE364089904B534243F0AAA8846 /* Pods-PokeDexAndWeather-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokeDexAndWeather-frameworks.sh"; sourceTree = "<group>"; };
 		2A663624F3114F2D3F293D833C536459 /* EasingAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasingAnimatable.swift; path = Gemini/EasingAnimatable.swift; sourceTree = "<group>"; };
 		2B4B3E6CAF4838458B23057288E60884 /* ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimator.swift; path = ViewAnimator/Classes/ViewAnimator.swift; sourceTree = "<group>"; };
 		2C375924EC98FE116E42D4D00F5D7735 /* LoginTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginTextField.debug.xcconfig; sourceTree = "<group>"; };
@@ -285,6 +289,7 @@
 		2FB38E579ED7B02319F3A2DDC5CA2FF0 /* CollectionViewSlantedLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CollectionViewSlantedLayout.debug.xcconfig; sourceTree = "<group>"; };
 		31225C2FA80C6CC2CFEB80665520B4F8 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		32CCC4ACFAB2E865AF93ED71097F2530 /* LGButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LGButton.xib; path = LGButton/Resources/LGButton.xib; sourceTree = "<group>"; };
+		3302F50BD6F05E451DCF5EBAB15D394D /* Pods-PokeDexAndWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokeDexAndWeather.debug.xcconfig"; sourceTree = "<group>"; };
 		33CBD614DA3BF548C40B973CDA6EECB0 /* Gemini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gemini.release.xcconfig; sourceTree = "<group>"; };
 		348B1E2D32E865C4695B64526CAA34F6 /* CollectionViewSlantedLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollectionViewSlantedLayout-prefix.pch"; sourceTree = "<group>"; };
 		351975863DFAA7188312FCF4220B7F55 /* ViewAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-prefix.pch"; sourceTree = "<group>"; };
@@ -298,9 +303,11 @@
 		41AA325F5561556EE25AD657FE01044C /* LoginTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginTextField.swift; path = LoginTextField/Classes/LoginTextField.swift; sourceTree = "<group>"; };
 		424D467864B4A985AE5348A6263C9BE9 /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
 		436ABB37AFFE271E2EDAAB5B7C1744A0 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFrameItemAnimation.swift; path = RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		43DB476F5C44F272A2695EBA0D39C54B /* Pods-PokeDexAndWeather-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokeDexAndWeather-Info.plist"; sourceTree = "<group>"; };
 		45E27FFCE41240BB25FCC84283B2E6CB /* PitchRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitchRotationAnimatable.swift; path = Gemini/PitchRotationAnimatable.swift; sourceTree = "<group>"; };
 		484A30C9C6ACEDED5CB1B9DE2712E3D2 /* RAMAnimatedTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-prefix.pch"; sourceTree = "<group>"; };
 		4B4D1B84D5BA86F45E804753C8AD9183 /* ViewAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ViewAnimator.modulemap; sourceTree = "<group>"; };
+		4C62499A6A8F09EFA50DE7791C073A91 /* Pods-PokeDexAndWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokeDexAndWeather.release.xcconfig"; sourceTree = "<group>"; };
 		4E79958862A94A99F0A40F883CEB810E /* Gemini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gemini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5428E091D38725093BA77B84083316F5 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		5435EDB3A384F152037D5BB65677D0F1 /* ViewAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-umbrella.h"; sourceTree = "<group>"; };
@@ -310,7 +317,6 @@
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4A061B77D22C8DC62FB95039637B52 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		5F76CB9E19BDC9D5914BF2C715771F55 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		607F6985A491D5716BCE784007A528FA /* Pods-TabBarTasks-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TabBarTasks-frameworks.sh"; sourceTree = "<group>"; };
 		60820405EBDE15252130598B109966A0 /* PMAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PMAlertController-dummy.m"; sourceTree = "<group>"; };
 		60D432787DD3D35EC7975B75B9F484A5 /* CollectionViewSlantedLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CollectionViewSlantedLayout.h; path = Sources/CollectionViewSlantedLayout.h; sourceTree = "<group>"; };
 		6124FAE8C3E1DBE580F5ED3557C83925 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
@@ -319,19 +325,17 @@
 		655087FDD944D77B898CDA3A8CCBC11C /* CollectionViewSlantedLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CollectionViewSlantedLayout.modulemap; sourceTree = "<group>"; };
 		670E5C1A12597DB880336AC5619B9111 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFumeAnimation.swift; path = RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift; sourceTree = "<group>"; };
 		6803A26D713572B4FCF211333F946956 /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		699E724927A06BB3ED3915CCE8F4C20B /* Pods_TabBarTasks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabBarTasks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE6BC7B30C2A9A4BF1D89C28AD8F609 /* FontMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontMap.swift; path = LGButton/Classes/SwiftIconFont/FontMap.swift; sourceTree = "<group>"; };
 		6C77468E48DE05A25207995E2E2C583D /* CAShapeLayer+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAShapeLayer+Helpers.swift"; path = "Sources/Extensions/CAShapeLayer+Helpers.swift"; sourceTree = "<group>"; };
 		6CF521E95DF81BBB49D4E032D3F5D39B /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
 		6D6B909BD0A75879890B78B666090649 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		6E2E8513F291BB49391AF9A738D73296 /* Pods-PokeDexAndWeather-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PokeDexAndWeather-umbrella.h"; sourceTree = "<group>"; };
 		6F4C29F884784A6C6839C01AE58AEC7B /* themify.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = themify.ttf; path = LGButton/Resources/themify.ttf; sourceTree = "<group>"; };
 		6F59BF74C305E9B86991282EBD244350 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBounceAnimation.swift; path = RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift; sourceTree = "<group>"; };
 		73149BFD00595C86A5D87E2E5E3E81A4 /* LGButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGButton.release.xcconfig; sourceTree = "<group>"; };
-		7567E9BB58C4595CB6C412AA33B5A8B8 /* Pods-TabBarTasks-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TabBarTasks-acknowledgements.plist"; sourceTree = "<group>"; };
 		75F28F3093A8F0F5D575C8653EA169F2 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		7651C413981334AF554C98B82D058217 /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationType.swift; path = ViewAnimator/Classes/Models/AnimationType.swift; sourceTree = "<group>"; };
 		78674E3E8A8571F75EABB75FE6D05399 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
-		797FAB62253AB76295407BB8BCABDC22 /* Pods-TabBarTasks-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TabBarTasks-Info.plist"; sourceTree = "<group>"; };
 		7AB35AF816C517BD40D64A097605E501 /* Gemini-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Gemini-Info.plist"; sourceTree = "<group>"; };
 		7C207D201EE4386F2C88BDF751471815 /* RAMAnimatedTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.debug.xcconfig; sourceTree = "<group>"; };
 		7CCEA4DF9792F4185942F2F6B3BBCB27 /* LGButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGButton.debug.xcconfig; sourceTree = "<group>"; };
@@ -344,7 +348,6 @@
 		8247EE78AE0B79126814E7A9A2729954 /* LoginTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoginTextField.modulemap; sourceTree = "<group>"; };
 		825A7DA53AAE893EB8185953AAE613DD /* LGButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGButton-umbrella.h"; sourceTree = "<group>"; };
 		8336562B21F4F7076DB3D36F059F8026 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
-		84EF8DAA93991A6CF99768575E0A92A8 /* Pods-TabBarTasks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TabBarTasks.modulemap"; sourceTree = "<group>"; };
 		853482122225549A0F4C9F3FE0CA3045 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		853C824232CFE7FA3927EB1452D05B52 /* GeminiAnimationModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiAnimationModel.swift; path = Gemini/GeminiAnimationModel.swift; sourceTree = "<group>"; };
 		85A10C0972342C328D4F0679ED968798 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
@@ -376,6 +379,7 @@
 		9EFB7C9D3D2CCF69CC066ED813D4F5C8 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		A02503D00C5A45A447722644C5DDD05D /* ViewAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ViewAnimator-Info.plist"; sourceTree = "<group>"; };
 		A11E85C5E55C76F79CBDC0CACEE3565F /* SwiftIconLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconLabel.swift; path = LGButton/Classes/SwiftIconFont/SwiftIconLabel.swift; sourceTree = "<group>"; };
+		A224FBA48C02CB838F0A426065479B14 /* Pods-PokeDexAndWeather-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PokeDexAndWeather-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A2AF7712A260CCEA8F8FCDD65901A8B5 /* Gemini-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gemini-dummy.m"; sourceTree = "<group>"; };
 		A4D39836670F122054BF331B39538FBF /* RollRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RollRotationAnimatable.swift; path = Gemini/RollRotationAnimatable.swift; sourceTree = "<group>"; };
 		A636CA5734A40EC364A04DC458256C78 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
@@ -385,7 +389,6 @@
 		ABEBBFB21253EC646E42B2CD24911148 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		AC6E6AF0EE4BE2305CE22BE4F2747914 /* CollectionViewSlantedLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewSlantedLayout.swift; path = Sources/CollectionViewSlantedLayout.swift; sourceTree = "<group>"; };
 		AD7B812D0416D00B3BB976A5E16FC490 /* RAMAnimatedTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RAMAnimatedTabBarController.modulemap; sourceTree = "<group>"; };
-		B02BEC3B9FC5AE75923CEE35287C166E /* Pods-TabBarTasks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TabBarTasks-umbrella.h"; sourceTree = "<group>"; };
 		B0A8753F067752DE10C826BCDD97021D /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
 		B1C7D961654C6703E06BECD9D2CA0065 /* LGButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGButton-prefix.pch"; sourceTree = "<group>"; };
 		B233F58CD1EBFB43DD3A0D1A41730283 /* ViewAnimatorConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimatorConfig.swift; path = ViewAnimator/Classes/ViewAnimatorConfig.swift; sourceTree = "<group>"; };
@@ -405,7 +408,6 @@
 		BFA04534C1F033D7EB14C1FAD4939723 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		BFD06B3A53E11EE38EDEB46C04C77C31 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		C1F7CED15E14A5126A019E4457A651A1 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		C31B65A0F975A68B2F2A95E6F4918FD6 /* Pods-TabBarTasks-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TabBarTasks-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C4F35B5653C37812B3A80CC41CE31C89 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		C5716DA934C539CAE8B8020336817370 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
 		C5A8ADC0627E947A4DB003A0D647B4F3 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
@@ -414,7 +416,6 @@
 		CA2E132776D55AA2EF891C50A5F7B67A /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		CBCBC99A621C95E827EBF2E9580AC6F7 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
 		CCFC358C103EDA93B397A4D9F2DBFA4D /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
-		CF688264549C42DFED998F73EB3E9911 /* Pods-TabBarTasks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabBarTasks.release.xcconfig"; sourceTree = "<group>"; };
 		D073E8AF34B3FFD5C32175BF0F64E6C5 /* ViewAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewAnimator.release.xcconfig; sourceTree = "<group>"; };
 		D1162153FCCA7914A56B6C741BB9AA92 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		D332351E7A4182428B8DCBD76627D878 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
@@ -425,7 +426,6 @@
 		D833364D3AA1F726D61E2446CA6F7844 /* RAMAnimatedTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.release.xcconfig; sourceTree = "<group>"; };
 		D84081BE82B755D2EA21B08FDAFF5813 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		DB0C357D2CA8BB920AFE781A5C86CE89 /* LoginTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginTextField-dummy.m"; sourceTree = "<group>"; };
-		DD1AD06AA08FC3CDF45D404B6553F751 /* Pods-TabBarTasks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TabBarTasks-dummy.m"; sourceTree = "<group>"; };
 		DDA31A1A90DC8AC3DD865095DB45651E /* FontIon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontIon.swift; path = LGButton/Classes/SwiftIconFont/FontIon.swift; sourceTree = "<group>"; };
 		E1963CE381FFCB1E48827C0B49FE4EB0 /* PMAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMAlertController-prefix.pch"; sourceTree = "<group>"; };
 		E1BA320F52E781CB9FB169E5AC51843D /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
@@ -476,11 +476,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38ACBB66194E38C3807B7CC6C227F1F3 /* Frameworks */ = {
+		6387A50916BE44C74F3F84B27F707837 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A77B0A7D5FD7AAFC0C14FE0FA237F295 /* Foundation.framework in Frameworks */,
+				5EB431CA8510E759F8C229AE49439BDC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +553,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10D1F352E454C0505E318CE8C1F6A0D7 /* Pods-PokeDexAndWeather */ = {
+			isa = PBXGroup;
+			children = (
+				22983E12185645CBB3D47740F9713622 /* Pods-PokeDexAndWeather.modulemap */,
+				A224FBA48C02CB838F0A426065479B14 /* Pods-PokeDexAndWeather-acknowledgements.markdown */,
+				121B022F3BA8C1EA3F469D29E5E6BC71 /* Pods-PokeDexAndWeather-acknowledgements.plist */,
+				05F29A94ED306CF70A47C3FF3F5D6021 /* Pods-PokeDexAndWeather-dummy.m */,
+				2A612FE364089904B534243F0AAA8846 /* Pods-PokeDexAndWeather-frameworks.sh */,
+				43DB476F5C44F272A2695EBA0D39C54B /* Pods-PokeDexAndWeather-Info.plist */,
+				6E2E8513F291BB49391AF9A738D73296 /* Pods-PokeDexAndWeather-umbrella.h */,
+				3302F50BD6F05E451DCF5EBAB15D394D /* Pods-PokeDexAndWeather.debug.xcconfig */,
+				4C62499A6A8F09EFA50DE7791C073A91 /* Pods-PokeDexAndWeather.release.xcconfig */,
+			);
+			name = "Pods-PokeDexAndWeather";
+			path = "Target Support Files/Pods-PokeDexAndWeather";
+			sourceTree = "<group>";
+		};
 		1C41AA6CFC1E18016A3D7D4ED730D019 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -606,25 +623,6 @@
 			path = Gemini;
 			sourceTree = "<group>";
 		};
-		3040ED5B5224C3AA025CB1556FC5ED43 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
-				14FC7CA2CA565423747AEDFE12AF8A85 /* CollectionViewSlantedLayout.framework */,
-				4E79958862A94A99F0A40F883CEB810E /* Gemini.framework */,
-				BEB5730D0C9DB3D9997CC93D0C703557 /* LGButton.framework */,
-				05EA5710698578B3FD5673CAE20B391B /* LoginTextField.framework */,
-				ECE1D4E8E06362E959CA9683CBD7C694 /* PMAlertController.bundle */,
-				C896D3D249F15B7280D3A50AA603D70F /* PMAlertController.framework */,
-				699E724927A06BB3ED3915CCE8F4C20B /* Pods_TabBarTasks.framework */,
-				6803A26D713572B4FCF211333F946956 /* RAMAnimatedTabBarController.framework */,
-				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
-				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
-				A76921F7329D552AD6FA723972B6337A /* ViewAnimator.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		32D220787486DFD84F6C72C1225E7627 /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
@@ -650,14 +648,6 @@
 			children = (
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		56141BA0705ED3D5FDBD9929033F9B95 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D337290F7756F8B52BFF79D6020F1BB1 /* Pods-TabBarTasks */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		57EE2BA410A54E04E8D408E4A511BA7B /* CollectionViewSlantedLayout */ = {
@@ -876,6 +866,25 @@
 			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
+		A202CD1115422E77C636F6E588E0F80B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				14FC7CA2CA565423747AEDFE12AF8A85 /* CollectionViewSlantedLayout.framework */,
+				4E79958862A94A99F0A40F883CEB810E /* Gemini.framework */,
+				BEB5730D0C9DB3D9997CC93D0C703557 /* LGButton.framework */,
+				05EA5710698578B3FD5673CAE20B391B /* LoginTextField.framework */,
+				ECE1D4E8E06362E959CA9683CBD7C694 /* PMAlertController.bundle */,
+				C896D3D249F15B7280D3A50AA603D70F /* PMAlertController.framework */,
+				0FD16345A2DFC4C01D7FA109061C8613 /* Pods_PokeDexAndWeather.framework */,
+				6803A26D713572B4FCF211333F946956 /* RAMAnimatedTabBarController.framework */,
+				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
+				A76921F7329D552AD6FA723972B6337A /* ViewAnimator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		AC56960B69486814BFF5844C810F4985 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -965,26 +974,9 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				5AF96E7EEAC2A62C2A2963878FF0A86F /* Pods */,
-				3040ED5B5224C3AA025CB1556FC5ED43 /* Products */,
-				56141BA0705ED3D5FDBD9929033F9B95 /* Targets Support Files */,
+				A202CD1115422E77C636F6E588E0F80B /* Products */,
+				FC8DE7B38825C1556E5462FC2DF0AC20 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D337290F7756F8B52BFF79D6020F1BB1 /* Pods-TabBarTasks */ = {
-			isa = PBXGroup;
-			children = (
-				84EF8DAA93991A6CF99768575E0A92A8 /* Pods-TabBarTasks.modulemap */,
-				C31B65A0F975A68B2F2A95E6F4918FD6 /* Pods-TabBarTasks-acknowledgements.markdown */,
-				7567E9BB58C4595CB6C412AA33B5A8B8 /* Pods-TabBarTasks-acknowledgements.plist */,
-				DD1AD06AA08FC3CDF45D404B6553F751 /* Pods-TabBarTasks-dummy.m */,
-				607F6985A491D5716BCE784007A528FA /* Pods-TabBarTasks-frameworks.sh */,
-				797FAB62253AB76295407BB8BCABDC22 /* Pods-TabBarTasks-Info.plist */,
-				B02BEC3B9FC5AE75923CEE35287C166E /* Pods-TabBarTasks-umbrella.h */,
-				0F867EFA1A50D044BEDE78A928A87A1E /* Pods-TabBarTasks.debug.xcconfig */,
-				CF688264549C42DFED998F73EB3E9911 /* Pods-TabBarTasks.release.xcconfig */,
-			);
-			name = "Pods-TabBarTasks";
-			path = "Target Support Files/Pods-TabBarTasks";
 			sourceTree = "<group>";
 		};
 		D83A44C47A08A37745188B93A705D8EB /* Resources */ = {
@@ -1018,6 +1010,14 @@
 			path = "../Target Support Files/PMAlertController";
 			sourceTree = "<group>";
 		};
+		FC8DE7B38825C1556E5462FC2DF0AC20 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10D1F352E454C0505E318CE8C1F6A0D7 /* Pods-PokeDexAndWeather */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1026,6 +1026,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				71F8F4398D71B5EAD51223D8D6CDC333 /* PMAlertController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B6CC24656892A8043E2393827A242AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFEE99978B10BC8F57992CDF59976D5 /* Pods-PokeDexAndWeather-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1081,14 +1089,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4173DF442D7E82E66AD7240C5EDFBF8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9439CE76C178EF59801CC8B349D8DFAB /* Pods-TabBarTasks-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C01257361E898E374FB0A6911FB063C7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1133,6 +1133,34 @@
 			name = SVProgressHUD;
 			productName = SVProgressHUD;
 			productReference = E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8454BE7B7160878D27EF811F4D712EBB /* Pods-PokeDexAndWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA9D087930E75CF9353421C41C2EABE /* Build configuration list for PBXNativeTarget "Pods-PokeDexAndWeather" */;
+			buildPhases = (
+				0B6CC24656892A8043E2393827A242AF /* Headers */,
+				F1A5038118DD64E3A35101419572C111 /* Sources */,
+				6387A50916BE44C74F3F84B27F707837 /* Frameworks */,
+				1E8DD761E09883011F8638431EC1EDD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				379C33B7B5364152485758D6B4FAE7C7 /* PBXTargetDependency */,
+				58F2670D85BA1FFA9370E6FCDFB758E8 /* PBXTargetDependency */,
+				CB9B8BC6FBA964061372811A52674CA8 /* PBXTargetDependency */,
+				ABB80177BAD05BD1374D77FB5F9A1F3B /* PBXTargetDependency */,
+				E04E3987924DD3D6CC69FE7A12D58853 /* PBXTargetDependency */,
+				A096D99086101EF32DAF1AE953888575 /* PBXTargetDependency */,
+				96FA8B6B50EC5CEA28437795623691ED /* PBXTargetDependency */,
+				DE4C57F5D1434BBC10C25AA13120B6DD /* PBXTargetDependency */,
+				C9A6BE50D1AAF05BA50690F27E34EF95 /* PBXTargetDependency */,
+				3EF2582F69C756A1453921D21D709087 /* PBXTargetDependency */,
+			);
+			name = "Pods-PokeDexAndWeather";
+			productName = "Pods-PokeDexAndWeather";
+			productReference = 0FD16345A2DFC4C01D7FA109061C8613 /* Pods_PokeDexAndWeather.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */ = {
@@ -1188,34 +1216,6 @@
 			name = PMAlertController;
 			productName = PMAlertController;
 			productReference = C896D3D249F15B7280D3A50AA603D70F /* PMAlertController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C90618413292BB054A1A77E7EB9222F3 /* Pods-TabBarTasks */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A72027C97C16770C777F3251B5FC9F48 /* Build configuration list for PBXNativeTarget "Pods-TabBarTasks" */;
-			buildPhases = (
-				B4173DF442D7E82E66AD7240C5EDFBF8 /* Headers */,
-				27D59BE0C3E3B889FF56DD5B34D75B10 /* Sources */,
-				38ACBB66194E38C3807B7CC6C227F1F3 /* Frameworks */,
-				1791C8BDB361F5F9A7883AA13C2EADA4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				71A00C5BF37B78409BB9C678E99497D1 /* PBXTargetDependency */,
-				C1BBADBCBC85CE27443254E21E82CCF1 /* PBXTargetDependency */,
-				90739AE76D5F4AF266140042D8F9FD94 /* PBXTargetDependency */,
-				832C203F80BB756CA534C62D99CD1C8E /* PBXTargetDependency */,
-				34FF0CB10FE80C24E89800D841EB182D /* PBXTargetDependency */,
-				5B5F75A8262A0CA9588B41D87A1F75E8 /* PBXTargetDependency */,
-				F409812EFEA14F05547F7D03345207E2 /* PBXTargetDependency */,
-				154BB4C6E6BDB1D1E729947BAD8487B0 /* PBXTargetDependency */,
-				63CD1949C3A3D4297B1671656FA9121C /* PBXTargetDependency */,
-				DE335631B4B9BB727033AB39975C2D70 /* PBXTargetDependency */,
-			);
-			name = "Pods-TabBarTasks";
-			productName = "Pods-TabBarTasks";
-			productReference = 699E724927A06BB3ED3915CCE8F4C20B /* Pods_TabBarTasks.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
@@ -1350,7 +1350,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1100;
 				TargetAttributes = {
 					F8932EBA373851873AC7A18A17614F86 = {
 						LastSwiftMigration = 1160;
@@ -1358,7 +1358,7 @@
 				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1366,7 +1366,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3040ED5B5224C3AA025CB1556FC5ED43 /* Products */;
+			productRefGroup = A202CD1115422E77C636F6E588E0F80B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1377,7 +1377,7 @@
 				F8932EBA373851873AC7A18A17614F86 /* LoginTextField */,
 				AF447278DD2A27045784F5DA5241502E /* PMAlertController */,
 				E587873091CEC554E4965B6FC547D2FD /* PMAlertController-PMAlertController */,
-				C90618413292BB054A1A77E7EB9222F3 /* Pods-TabBarTasks */,
+				8454BE7B7160878D27EF811F4D712EBB /* Pods-PokeDexAndWeather */,
 				DED4DEF356A163E50925101C3C7C0FB9 /* RAMAnimatedTabBarController */,
 				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
 				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
@@ -1395,7 +1395,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1791C8BDB361F5F9A7883AA13C2EADA4 /* Resources */ = {
+		1E8DD761E09883011F8638431EC1EDD0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1492,14 +1492,6 @@
 			files = (
 				2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */,
 				7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27D59BE0C3E3B889FF56DD5B34D75B10 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0306F956453DA194C22B1C407C2EF3BF /* Pods-TabBarTasks-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1677,74 +1669,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1A5038118DD64E3A35101419572C111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4BE9849EAF0E386E57EDC6B885C5E4 /* Pods-PokeDexAndWeather-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		154BB4C6E6BDB1D1E729947BAD8487B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
-			targetProxy = F7580B90DEB47405D81E0BA3D4346560 /* PBXContainerItemProxy */;
-		};
 		1D1B584E292585D947ADAB9019D4B0E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "PMAlertController-PMAlertController";
 			target = E587873091CEC554E4965B6FC547D2FD /* PMAlertController-PMAlertController */;
 			targetProxy = EDD12409CDAAC2C2B2B4D067B4037740 /* PBXContainerItemProxy */;
 		};
-		34FF0CB10FE80C24E89800D841EB182D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LoginTextField;
-			target = F8932EBA373851873AC7A18A17614F86 /* LoginTextField */;
-			targetProxy = 007D6EC5B9096A3B29F0B0E069826ECC /* PBXContainerItemProxy */;
-		};
-		5B5F75A8262A0CA9588B41D87A1F75E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PMAlertController;
-			target = AF447278DD2A27045784F5DA5241502E /* PMAlertController */;
-			targetProxy = 9FAE995851102D4213DF08D6A20E072F /* PBXContainerItemProxy */;
-		};
-		63CD1949C3A3D4297B1671656FA9121C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
-			targetProxy = 6D266C9550625E62A46B07A87B1693EA /* PBXContainerItemProxy */;
-		};
-		71A00C5BF37B78409BB9C678E99497D1 /* PBXTargetDependency */ = {
+		379C33B7B5364152485758D6B4FAE7C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = DC955DEBC25EC9842431510E5AC95B5B /* PBXContainerItemProxy */;
+			targetProxy = 88DAB5FDC326DB059DF565E4F29AC7C1 /* PBXContainerItemProxy */;
 		};
-		832C203F80BB756CA534C62D99CD1C8E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LGButton;
-			target = FD999FE212F29E29DEEA0A85E1DC4D4E /* LGButton */;
-			targetProxy = 55F96623B002F438F81B918198CA1656 /* PBXContainerItemProxy */;
-		};
-		90739AE76D5F4AF266140042D8F9FD94 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Gemini;
-			target = A6AC3B95F2D31FE0816D1936AFDFC4F5 /* Gemini */;
-			targetProxy = AB4DEE78176A2CBDB3EBE11771C67D03 /* PBXContainerItemProxy */;
-		};
-		C1BBADBCBC85CE27443254E21E82CCF1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CollectionViewSlantedLayout;
-			target = FA7271849F210A81E46E26CACBE320CA /* CollectionViewSlantedLayout */;
-			targetProxy = E41F1039B636612C46CA49A089785EF5 /* PBXContainerItemProxy */;
-		};
-		DE335631B4B9BB727033AB39975C2D70 /* PBXTargetDependency */ = {
+		3EF2582F69C756A1453921D21D709087 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ViewAnimator;
 			target = 91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */;
-			targetProxy = 29ACF93FF09412DC9E76D5FBDBD20C91 /* PBXContainerItemProxy */;
+			targetProxy = 7D6F8084B0B6ECD6B96640C10EB1BA9A /* PBXContainerItemProxy */;
 		};
-		F409812EFEA14F05547F7D03345207E2 /* PBXTargetDependency */ = {
+		58F2670D85BA1FFA9370E6FCDFB758E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CollectionViewSlantedLayout;
+			target = FA7271849F210A81E46E26CACBE320CA /* CollectionViewSlantedLayout */;
+			targetProxy = 1C208F64338BEB0EEE3452F501A605F6 /* PBXContainerItemProxy */;
+		};
+		96FA8B6B50EC5CEA28437795623691ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RAMAnimatedTabBarController;
 			target = DED4DEF356A163E50925101C3C7C0FB9 /* RAMAnimatedTabBarController */;
-			targetProxy = A71AB42FC9A3CE470A9A3327DA061B0B /* PBXContainerItemProxy */;
+			targetProxy = 18FE24A24345960853B83C5B72A578E1 /* PBXContainerItemProxy */;
+		};
+		A096D99086101EF32DAF1AE953888575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PMAlertController;
+			target = AF447278DD2A27045784F5DA5241502E /* PMAlertController */;
+			targetProxy = 0585A49E6CE6976B655EB9FD0D2412D5 /* PBXContainerItemProxy */;
+		};
+		ABB80177BAD05BD1374D77FB5F9A1F3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGButton;
+			target = FD999FE212F29E29DEEA0A85E1DC4D4E /* LGButton */;
+			targetProxy = B8D7DC64E880C8AD773AB89239FACAF8 /* PBXContainerItemProxy */;
+		};
+		C9A6BE50D1AAF05BA50690F27E34EF95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 741E78C6E122C66F64A741803D3A1CA7 /* PBXContainerItemProxy */;
+		};
+		CB9B8BC6FBA964061372811A52674CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gemini;
+			target = A6AC3B95F2D31FE0816D1936AFDFC4F5 /* Gemini */;
+			targetProxy = DA30A1E9E440A1A7874848EB60612E95 /* PBXContainerItemProxy */;
+		};
+		DE4C57F5D1434BBC10C25AA13120B6DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = 1FA06DBFE1EE426BE9D2C270A76634C0 /* PBXContainerItemProxy */;
+		};
+		E04E3987924DD3D6CC69FE7A12D58853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LoginTextField;
+			target = F8932EBA373851873AC7A18A17614F86 /* LoginTextField */;
+			targetProxy = 1E0E41195AD82175C56032A362790B5B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1765,7 +1765,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1801,7 +1801,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LoginTextField/LoginTextField-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LoginTextField/LoginTextField-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1836,7 +1836,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1882,7 +1882,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1933,7 +1932,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ViewAnimator/ViewAnimator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ViewAnimator/ViewAnimator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1968,7 +1967,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2013,7 +2012,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2068,7 +2066,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2105,7 +2103,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2141,7 +2139,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2176,7 +2174,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Gemini/Gemini-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Gemini/Gemini-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2212,7 +2210,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ViewAnimator/ViewAnimator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ViewAnimator/ViewAnimator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2248,7 +2246,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CollectionViewSlantedLayout/CollectionViewSlantedLayout-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CollectionViewSlantedLayout/CollectionViewSlantedLayout-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2268,6 +2266,44 @@
 			};
 			name = Release;
 		};
+		6CEB76E4670CA4402FF0A64C7FCC303A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3302F50BD6F05E451DCF5EBAB15D394D /* Pods-PokeDexAndWeather.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PokeDexAndWeather/Pods-PokeDexAndWeather-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokeDexAndWeather/Pods-PokeDexAndWeather.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		75B0B6982958CC8D30554CBC5A8FC8FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 26F6241FC77B745138EAE873C2DA5271 /* PMAlertController.release.xcconfig */;
@@ -2284,7 +2320,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PMAlertController/PMAlertController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PMAlertController/PMAlertController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2312,7 +2348,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PMAlertController";
 				IBSC_MODULE = PMAlertController;
 				INFOPLIST_FILE = "Target Support Files/PMAlertController/ResourceBundle-PMAlertController-PMAlertController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = PMAlertController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2337,7 +2373,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LGButton/LGButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LGButton/LGButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2373,7 +2409,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CollectionViewSlantedLayout/CollectionViewSlantedLayout-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CollectionViewSlantedLayout/CollectionViewSlantedLayout-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2392,44 +2428,6 @@
 			};
 			name = Debug;
 		};
-		92CD49427EEB19AD30708D676219E553 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F867EFA1A50D044BEDE78A928A87A1E /* Pods-TabBarTasks.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TabBarTasks/Pods-TabBarTasks-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TabBarTasks/Pods-TabBarTasks.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		AB37635B94F0D34E593AB7646F103026 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 550E3214F5127616860B1CBE254C00CF /* PMAlertController.debug.xcconfig */;
@@ -2438,7 +2436,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PMAlertController";
 				IBSC_MODULE = PMAlertController;
 				INFOPLIST_FILE = "Target Support Files/PMAlertController/ResourceBundle-PMAlertController-PMAlertController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = PMAlertController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2463,7 +2461,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LGButton/LGButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LGButton/LGButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2498,7 +2496,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2535,7 +2533,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2570,7 +2568,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Gemini/Gemini-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Gemini/Gemini-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2606,7 +2604,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LoginTextField/LoginTextField-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LoginTextField/LoginTextField-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2642,7 +2640,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PMAlertController/PMAlertController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PMAlertController/PMAlertController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2661,9 +2659,9 @@
 			};
 			name = Debug;
 		};
-		FE5889801DA7FFAF4F27FD2900A153AC /* Release */ = {
+		F8D7AE6ECCCDA7EE8205C46F46824D23 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF688264549C42DFED998F73EB3E9911 /* Pods-TabBarTasks.release.xcconfig */;
+			baseConfigurationReference = 4C62499A6A8F09EFA50DE7791C073A91 /* Pods-PokeDexAndWeather.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2676,7 +2674,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TabBarTasks/Pods-TabBarTasks-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PokeDexAndWeather/Pods-PokeDexAndWeather-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2685,7 +2683,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TabBarTasks/Pods-TabBarTasks.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PokeDexAndWeather/Pods-PokeDexAndWeather.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2739,6 +2737,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5CA9D087930E75CF9353421C41C2EABE /* Build configuration list for PBXNativeTarget "Pods-PokeDexAndWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEB76E4670CA4402FF0A64C7FCC303A /* Debug */,
+				F8D7AE6ECCCDA7EE8205C46F46824D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2762,15 +2769,6 @@
 			buildConfigurations = (
 				1AEC8811CD04A1575D6F1863CE81DA4A /* Debug */,
 				5768B4E5F7F8D2553B525AECC9A45FE5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A72027C97C16770C777F3251B5FC9F48 /* Build configuration list for PBXNativeTarget "Pods-TabBarTasks" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92CD49427EEB19AD30708D676219E553 /* Debug */,
-				FE5889801DA7FFAF4F27FD2900A153AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

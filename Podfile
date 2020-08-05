@@ -1,11 +1,11 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'TabBarTasks' do
+target 'PokeDexAndWeather' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for TabBarTasks
+  # Pods for PokeDexAndWeather
 pod 'SVProgressHUD'
 pod 'SwiftyJSON'
 pod 'Alamofire'

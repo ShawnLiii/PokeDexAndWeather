@@ -43,7 +43,7 @@ It is used for Custimizing the Tab Bar Controller. I use it to add animations fo
 		2. Clicked on Privacy
 		3. Go into Location Service
 		4. Make Sure Location Service is on
-		5. Go into TabBarTasks and make sure "Allow Location Access is not 'Never' "
+		5. Go into PokeDexAndWeather and make sure "Allow Location Access is not 'Never' "
 3. Adjust Logout Function. 
 4. PhotoLibrary Project:
     - Add more animations, clicked refresh will also switch the animations
