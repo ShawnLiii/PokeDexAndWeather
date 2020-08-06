@@ -17,6 +17,7 @@ class AlertManager
         case userAuthenticationEmpty = "User Name or Password is Empty"
         case userExist = "User Name Already Exist"
         case registerSuccess = "Register Successful!"
+        case passwordHasChanged = "Password has been changed!"
         case cityNameNotExist = "The City Can't be Found"
         case cityNameEmpty = "City Name Can't be Empty"
     }
@@ -39,6 +40,10 @@ class AlertManager
             message = AlertType.registerSuccess.rawValue
             title = "Great!"
             imageName = "panda"
+        case .passwordHasChanged:
+            message = AlertType.passwordHasChanged.rawValue
+            title = "Great!"
+            imageName = "panda"
         case .cityNameNotExist:
             message = AlertType.cityNameNotExist.rawValue
         case .cityNameEmpty:
@@ -49,7 +54,7 @@ class AlertManager
         
         var alertAction = PMAlertAction(title: "OK", style: .default)
         
-        if alertType == .registerSuccess
+        if alertType == .registerSuccess || alertType == .passwordHasChanged
         {
             alertAction = PMAlertAction(title: "Mua", style: .default, action:
             {

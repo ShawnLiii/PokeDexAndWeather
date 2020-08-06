@@ -16,6 +16,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate, LoginDelegate
     var userNameTF = LoginTextField()
     var passwordTF = LoginTextField()
     
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -31,7 +32,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate, LoginDelegate
     {
         if let username = userNameTF.text, let password = passwordTF.text, !username.isEmpty, !password.isEmpty
         {
-            if let passwordOfUser = UserDefaults.standard.value(forKey: username), (passwordOfUser as! String) == password
+            if let passwordOfUser = UserDefaults.standard.value(forKey: "password"),
+               let usernameOfUser = UserDefaults.standard.value(forKey: "username"), (passwordOfUser as! String) == password, (usernameOfUser as! String) == username
             {
                 UserDefaults.standard.set(true, forKey: AppConstants.UserInfo.loginStatusKey)
                 
@@ -74,6 +76,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate, LoginDelegate
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         let vc = segue.destination as! RegisterViewController
-        vc.delegate = self
+        vc.loginDelegate = self
     }
 }

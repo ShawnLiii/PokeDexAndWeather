@@ -15,7 +15,8 @@ class RegisterViewController: UIViewController, UITextFieldDelegate
 
     var userNameTF = LoginTextField()
     var passwordTF = LoginTextField()
-    var delegate: LoginDelegate?
+    var loginDelegate: LoginDelegate?
+    
     
     override func viewDidLoad()
     {
@@ -33,9 +34,9 @@ class RegisterViewController: UIViewController, UITextFieldDelegate
             }
             else
             {
-                UserDefaults.standard.set(password, forKey: username)
-                delegate?.fillUserName(username: username)
-                
+                UserDefaults.standard.set(username, forKey: "username")
+                UserDefaults.standard.set(password, forKey: "password")
+                loginDelegate?.fillUserName(username: username)
                 AlertManager.alert(forWhichPage: self, alertType: .registerSuccess)
                 {
                     self.navigationController?.popToRootViewController(animated: true)

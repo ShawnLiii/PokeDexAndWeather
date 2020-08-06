@@ -14,6 +14,7 @@
 		3D1773F0247A1E4A0058D060 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1773EF247A1E4A0058D060 /* RegisterViewController.swift */; };
 		3D1AFB26247A69D6003F8CDB /* PokemonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1AFB25247A69D6003F8CDB /* PokemonDetailViewController.swift */; };
 		3D1AFB28247A6B5B003F8CDB /* PokemonDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1AFB27247A6B5B003F8CDB /* PokemonDataModel.swift */; };
+		3D26696024DB478400B30518 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D26695F24DB478400B30518 /* ProfileViewController.swift */; };
 		3D3ECCE124798A91003AE1AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ECCE024798A91003AE1AD /* AppDelegate.swift */; };
 		3D3ECCE324798A91003AE1AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ECCE224798A91003AE1AD /* SceneDelegate.swift */; };
 		3D3ECCE524798A91003AE1AD /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ECCE424798A91003AE1AD /* WeatherViewController.swift */; };
@@ -32,6 +33,7 @@
 		3D959B5F247B245400D152EF /* PhotoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959B5E247B245400D152EF /* PhotoDataModel.swift */; };
 		3DCB26BB247E112B00F7BCED /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3DCB26BA247E112B00F7BCED /* ReadMe.txt */; };
 		3DE162E3247C2FA700560C64 /* LoginNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE162E2247C2FA700560C64 /* LoginNavigationController.swift */; };
+		3DEDFA5124DB9AC300582B1C /* ProfileChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEDFA5024DB9AC300582B1C /* ProfileChangePasswordViewController.swift */; };
 		8D4CACC99E0E7E368673BCB4 /* Pods_PokeDexAndWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECE506B6183897A864BC560 /* Pods_PokeDexAndWeather.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,7 @@
 		3D1773EF247A1E4A0058D060 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3D1AFB25247A69D6003F8CDB /* PokemonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailViewController.swift; sourceTree = "<group>"; };
 		3D1AFB27247A6B5B003F8CDB /* PokemonDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDataModel.swift; sourceTree = "<group>"; };
+		3D26695F24DB478400B30518 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3D3ECCDD24798A91003AE1AD /* PokeDexAndWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeDexAndWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3ECCE024798A91003AE1AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D3ECCE224798A91003AE1AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +66,7 @@
 		3D959B5E247B245400D152EF /* PhotoDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataModel.swift; sourceTree = "<group>"; };
 		3DCB26BA247E112B00F7BCED /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		3DE162E2247C2FA700560C64 /* LoginNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNavigationController.swift; sourceTree = "<group>"; };
+		3DEDFA5024DB9AC300582B1C /* ProfileChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileChangePasswordViewController.swift; sourceTree = "<group>"; };
 		4ECE506B6183897A864BC560 /* Pods_PokeDexAndWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeDexAndWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94BF0B27BF92FEF3617293EF /* Pods-PokeDexAndWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeDexAndWeather.release.xcconfig"; path = "Target Support Files/Pods-PokeDexAndWeather/Pods-PokeDexAndWeather.release.xcconfig"; sourceTree = "<group>"; };
 		C8D9110BC0575A1070748604 /* Pods-PokeDexAndWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeDexAndWeather.debug.xcconfig"; path = "Target Support Files/Pods-PokeDexAndWeather/Pods-PokeDexAndWeather.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +109,15 @@
 				3D1773EF247A1E4A0058D060 /* RegisterViewController.swift */,
 			);
 			name = User;
+			sourceTree = "<group>";
+		};
+		3D26695E24DB475400B30518 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3D26695F24DB478400B30518 /* ProfileViewController.swift */,
+				3DEDFA5024DB9AC300582B1C /* ProfileChangePasswordViewController.swift */,
+			);
+			name = Profile;
 			sourceTree = "<group>";
 		};
 		3D3ECCD424798A91003AE1AD = {
@@ -157,6 +170,7 @@
 				3D1773E9247A1A770058D060 /* PokeDex */,
 				3D3ECCFF2479EDC4003AE1AD /* Weather */,
 				3D959B55247B160500D152EF /* PhotoLibrary */,
+				3D26695E24DB475400B30518 /* Profile */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -372,8 +386,10 @@
 				3D1773E8247A09BE0058D060 /* WeatherDataModel.swift in Sources */,
 				3D1773F0247A1E4A0058D060 /* RegisterViewController.swift in Sources */,
 				3D959B5B247B21AA00D152EF /* PhotoLibraryViewController.swift in Sources */,
+				3DEDFA5124DB9AC300582B1C /* ProfileChangePasswordViewController.swift in Sources */,
 				3D6FEC17247A4616003496EB /* AlertManager.swift in Sources */,
 				3D1AFB28247A6B5B003F8CDB /* PokemonDataModel.swift in Sources */,
+				3D26696024DB478400B30518 /* ProfileViewController.swift in Sources */,
 				3D3ECCE524798A91003AE1AD /* WeatherViewController.swift in Sources */,
 				3D959B59247B210D00D152EF /* PhotoCollectionViewCell.swift in Sources */,
 				3D7690DC247C63BA0067A6B0 /* Service.swift in Sources */,

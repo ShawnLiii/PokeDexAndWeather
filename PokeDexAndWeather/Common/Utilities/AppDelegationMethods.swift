@@ -18,3 +18,4 @@ protocol LoginDelegate
 {
     func fillUserName(username: String)
 }
+
