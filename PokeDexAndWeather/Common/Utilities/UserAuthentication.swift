@@ -18,7 +18,7 @@ class UserAuthentication
         userNameTF.placeholder = AppConstants.TextField.userNamePH
         userNameTF.placeholderColor = .gray
         userNameTF.borderStyle = .roundedRect
-        userNameTF.keyboardAppearance = .dark
+//        userNameTF.keyboardAppearance = .dark
         viewController.view.addSubview(userNameTF)
     }
     
@@ -29,7 +29,7 @@ class UserAuthentication
         passwordTF.placeholder = AppConstants.TextField.passwordPH
         passwordTF.placeholderColor = .gray
         passwordTF.borderStyle = .roundedRect
-        passwordTF.keyboardAppearance = .dark
+//        passwordTF.keyboardAppearance = .dark
         passwordTF.isSecureTextEntry = true
         passwordTF.showPasswordApperanceButton = true
         viewController.view.addSubview(passwordTF)
