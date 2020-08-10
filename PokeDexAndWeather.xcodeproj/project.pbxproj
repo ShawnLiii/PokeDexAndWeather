@@ -142,24 +142,15 @@
 		3D3ECCDF24798A91003AE1AD /* PokeDexAndWeather */ = {
 			isa = PBXGroup;
 			children = (
-				3D3ECCF424798AA4003AE1AD /* Common */,
+				3DAAB17F24DCB9550065181F /* App Entry Point */,
 				3D3ECCF824798B33003AE1AD /* Model */,
 				3D3ECCF624798ABF003AE1AD /* View */,
 				3D3ECCF524798AAC003AE1AD /* Controller */,
 				3D7690DA247C638A0067A6B0 /* Service */,
 				3D3ECCF724798ACD003AE1AD /* SupportFiles */,
-			);
-			path = PokeDexAndWeather;
-			sourceTree = "<group>";
-		};
-		3D3ECCF424798AA4003AE1AD /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				3D3ECCE024798A91003AE1AD /* AppDelegate.swift */,
-				3D3ECCE224798A91003AE1AD /* SceneDelegate.swift */,
 				3D3ECCF924798B5B003AE1AD /* Utilities */,
 			);
-			path = Common;
+			path = PokeDexAndWeather;
 			sourceTree = "<group>";
 		};
 		3D3ECCF524798AAC003AE1AD /* Controller */ = {
@@ -247,6 +238,15 @@
 				3D959B5A247B21AA00D152EF /* PhotoLibraryViewController.swift */,
 			);
 			name = PhotoLibrary;
+			sourceTree = "<group>";
+		};
+		3DAAB17F24DCB9550065181F /* App Entry Point */ = {
+			isa = PBXGroup;
+			children = (
+				3D3ECCE224798A91003AE1AD /* SceneDelegate.swift */,
+				3D3ECCE024798A91003AE1AD /* AppDelegate.swift */,
+			);
+			path = "App Entry Point";
 			sourceTree = "<group>";
 		};
 		3DE162E4247C32FC00560C64 /* RootController */ = {

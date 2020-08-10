@@ -28,7 +28,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate
     {
         if let username = userNameTF.text, let password = passwordTF.text, !username.isEmpty, !password.isEmpty
         {
-            if isKeyPresentInUserDefaults(key: username)
+            if isKeyPresentInUserDefaults(value: username)
             {
                 AlertManager.alert(forWhichPage: self, alertType: .userExist, handler: nil)
             }
@@ -61,9 +61,11 @@ class RegisterViewController: UIViewController, UITextFieldDelegate
         
     }
     
-    func isKeyPresentInUserDefaults(key: String) -> Bool
+    func isKeyPresentInUserDefaults(value: String) -> Bool
     {
-        return UserDefaults.standard.object(forKey: key) != nil
+        guard let username = UserDefaults.standard.value(forKey: "username") as? String else { return false }
+        
+        return username == value
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool
